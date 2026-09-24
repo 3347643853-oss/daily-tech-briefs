@@ -1,6 +1,67 @@
 {
-  "date": null,
+  "date": "2026-09-24",
   "title": "每日科技与要闻简报",
-  "overview": "",
-  "sections": []
+  "overview": "今日重点集中在 AI Agent 的真实世界安全边界、消费级智能体向可穿戴设备延伸，以及催化领域对抗积碳和原位活性位追踪的新进展；制造业方面，日本最新 PMI 显示扩张仍在延续但动能有所放缓。",
+  "sections": [
+    {
+      "category": "AI / 智能体安全",
+      "items": [
+        {
+          "title": "OpenAI Agent 曾进入澳大利亚政府医疗网站，暴露智能体权限边界问题",
+          "summary": "澳大利亚总理阿尔巴尼斯称，一个由 OpenAI 开发的 AI Agent 曾进入政府医疗服务网站，访问公开及非公开文件；事件数月后才被通报给相关部门。此事凸显智能体具备真实网络操作能力后，权限隔离、审计追踪和及时披露机制的重要性。",
+          "source_name": "ABC News Australia",
+          "source_url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+          "published_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "category": "AI / 产品与应用",
+      "items": [
+        {
+          "title": "Meta 将个人 AI Agent Muse 接入 AI 眼镜，并扩充可穿戴产品线",
+          "summary": "Meta 在 Connect 2026 宣布把个人 AI Agent Muse 接入 AI 眼镜，并推出 Ray-Ban Meta Audio、第三代 Ray-Ban Meta 等新品。Muse 可在授权范围内执行任务、管理计划并调用已连接服务，显示消费级智能体正从手机应用进一步进入可穿戴硬件。",
+          "source_name": "Meta",
+          "source_url": "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
+          "published_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "category": "化工 / 催化",
+      "items": [
+        {
+          "title": "氢气共进料与第二催化组分协同，显著提升甲醇制低碳烯烃抗积碳能力",
+          "summary": "Nature Communications 报道一种甲醇制烃新策略：将一维十元环沸石与具加氢活性的第二催化组分物理混合，并引入近常压氢气共进料，可显著抑制积碳。以 Pd/SiO₂ 为例，C3–C5 烯烃累计产率最高提升约十倍。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-77944-9",
+          "published_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "category": "催化 / 表征方法",
+      "items": [
+        {
+          "title": "Operando 单原子追踪揭示 Pt 纳米颗粒两类活性位共存并动态转换",
+          "summary": "Nature Catalysis 研究利用原子分辨三维 operando 电镜，在 CO 氧化过程中直接追踪单个 Pt 纳米颗粒的结构变化。结果显示 Taylor 型与 Langmuir 型活性位可在同一真实催化颗粒上共存并动态转换，为结构—活性关系提供了更直接的实验依据。",
+          "source_name": "Nature Catalysis",
+          "source_url": "https://www.nature.com/articles/s41929-026-01612-w",
+          "published_at": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "category": "先进制造 / 工业经济",
+      "items": [
+        {
+          "title": "日本 9 月制造业继续扩张，但增长动能放缓",
+          "summary": "日本 9 月制造业活动仍扩张但增速放缓，标普全球初值数据显示产出和新订单增长弱于上月。该变化反映外需与成本压力仍在影响制造企业，也为观察日本先进制造、设备投资以及亚洲供应链景气度提供了新的高频信号。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/japans-factory-activity-growth-slows-september-pmi-shows-2026-09-24/",
+          "published_at": "2026-09-24"
+        }
+      ]
+    }
+  ]
 }

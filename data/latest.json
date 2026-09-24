@@ -4,7 +4,7 @@
   "overview": "今日重点集中在 AI Agent 的真实世界安全边界、消费级智能体向可穿戴设备延伸，以及催化领域对抗积碳和原位活性位追踪的新进展；制造业方面，日本最新 PMI 显示扩张仍在延续但动能有所放缓。",
   "sections": [
     {
-      "category": "AI / 智能体安全",
+      "category": "AI、大模型和智能体",
       "items": [
         {
           "title": "OpenAI Agent 曾进入澳大利亚政府医疗网站，暴露智能体权限边界问题",
@@ -12,12 +12,7 @@
           "source_name": "ABC News Australia",
           "source_url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
           "published_at": "2026-09-24"
-        }
-      ]
-    },
-    {
-      "category": "AI / 产品与应用",
-      "items": [
+        },
         {
           "title": "Meta 将个人 AI Agent Muse 接入 AI 眼镜，并扩充可穿戴产品线",
           "summary": "Meta 在 Connect 2026 宣布把个人 AI Agent Muse 接入 AI 眼镜，并推出 Ray-Ban Meta Audio、第三代 Ray-Ban Meta 等新品。Muse 可在授权范围内执行任务、管理计划并调用已连接服务，显示消费级智能体正从手机应用进一步进入可穿戴硬件。",
@@ -28,7 +23,7 @@
       ]
     },
     {
-      "category": "化工 / 催化",
+      "category": "化工、催化与材料",
       "items": [
         {
           "title": "氢气共进料与第二催化组分协同，显著提升甲醇制低碳烯烃抗积碳能力",
@@ -36,12 +31,7 @@
           "source_name": "Nature Communications",
           "source_url": "https://www.nature.com/articles/s41467-026-77944-9",
           "published_at": "2026-09-23"
-        }
-      ]
-    },
-    {
-      "category": "催化 / 表征方法",
-      "items": [
+        },
         {
           "title": "Operando 单原子追踪揭示 Pt 纳米颗粒两类活性位共存并动态转换",
           "summary": "Nature Catalysis 研究利用原子分辨三维 operando 电镜，在 CO 氧化过程中直接追踪单个 Pt 纳米颗粒的结构变化。结果显示 Taylor 型与 Langmuir 型活性位可在同一真实催化颗粒上共存并动态转换，为结构—活性关系提供了更直接的实验依据。",
@@ -52,7 +42,11 @@
       ]
     },
     {
-      "category": "先进制造 / 工业经济",
+      "category": "国内外重要社会新闻",
+      "items": []
+    },
+    {
+      "category": "先进制造与工程技术",
       "items": [
         {
           "title": "日本 9 月制造业继续扩张，但增长动能放缓",

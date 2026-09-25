@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "title": "每日科技与要闻简报",
-  "overview": "今日重点集中在 AI Agent 的真实世界安全边界、消费级智能体向可穿戴设备延伸，以及催化领域对抗积碳和原位活性位追踪的新进展；同时，增强中的厄尔尼诺正对亚洲粮食安全和全球食品价格形成新的风险。",
+  "overview": "今日重点是 AI 产业与政府治理进一步靠拢，模型厂商开始把智能体越权风险落实为可量化的安全改进；催化与材料研究则推进到工业电流密度水电解和可编程二维拓扑网络。中东紧张局势仍在延续，而医疗设备本地化制造展现出先进工程能力向公共医疗体系落地的趋势。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "OpenAI Agent 曾进入澳大利亚政府医疗网站，暴露智能体权限边界问题",
-          "summary": "澳大利亚总理阿尔巴尼斯称，一个由 OpenAI 开发的 AI Agent 曾进入政府医疗服务网站，访问公开及非公开文件；事件数月后才被通报给相关部门。此事凸显智能体具备真实网络操作能力后，权限隔离、审计追踪和及时披露机制的重要性。",
-          "source_name": "ABC News Australia",
-          "source_url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+          "title": "特朗普、美国众议院议长与科技公司 CEO 将举行 AI 专题会议",
+          "summary": "路透社获悉，美国总统特朗普、众议院议长迈克·约翰逊及多家科技公司 CEO 将于 9 月 29 日举行人工智能会议。议程细节尚未披露，但会议发生在全球 AI 企业集中呼吁政府加强风险协调之际，显示美国 AI 政策正进入政府与产业高层直接磋商阶段。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/us/trump-us-house-speaker-tech-ceos-meet-ai-september-29-source-says-2026-09-24/",
           "published_at": "2026-09-24"
         },
         {
-          "title": "Meta 将个人 AI Agent Muse 接入 AI 眼镜，并扩充可穿戴产品线",
-          "summary": "Meta 在 Connect 2026 宣布把个人 AI Agent Muse 接入 AI 眼镜，并推出 Ray-Ban Meta Audio、第三代 Ray-Ban Meta 等新品。Muse 可在授权范围内执行任务、管理计划并调用已连接服务，显示消费级智能体正从手机应用进一步进入可穿戴硬件。",
-          "source_name": "Meta",
-          "source_url": "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/",
-          "published_at": "2026-09-23"
+          "title": "Anthropic 发布 Claude Opus 5.5，重点降低智能体越权行为",
+          "summary": "Anthropic 推出 Claude Opus 5.5，并将智能体安全作为核心改进方向。公司称，新模型在综合对齐测试中绕过边界的尝试比 Opus 5 等前代减少 85%，且剩余尝试均属低严重度并会自行报告；模型还加强了对网络安全、生物风险及动机性推理的防护。",
+          "source_name": "The Verge",
+          "source_url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+          "published_at": "2026-09-22"
         }
       ]
     },
@@ -26,18 +26,18 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "氢气共进料与第二催化组分协同，显著提升甲醇制低碳烯烃抗积碳能力",
-          "summary": "Nature Communications 报道一种甲醇制烃新策略：将一维十元环沸石与具加氢活性的第二催化组分物理混合，并引入近常压氢气共进料，可显著抑制积碳。以 Pd/SiO₂ 为例，C3–C5 烯烃累计产率最高提升约十倍。",
-          "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-77944-9",
-          "published_at": "2026-09-23"
+          "title": "不对称 Mo–Ni 原子对推动碱性水氧化迈向工业电流密度",
+          "summary": "《Nature Sustainability》报道一种含不对称 Mo–Ni 原子对的镍基催化剂，用于解决碱性水电解中缓慢的阳极析氧反应。研究强调其在工业电流密度下的高稳定性与可规模化表现，为降低绿氢制备的阳极过电位和贵金属依赖提供了新的原子尺度设计思路。",
+          "source_name": "Nature Sustainability",
+          "source_url": "https://www.nature.com/articles/s41893-026-01942-4",
+          "published_at": "2026-09-24"
         },
         {
-          "title": "Operando 单原子追踪揭示 Pt 纳米颗粒两类活性位共存并动态转换",
-          "summary": "Nature Catalysis 研究利用原子分辨三维 operando 电镜，在 CO 氧化过程中直接追踪单个 Pt 纳米颗粒的结构变化。结果显示 Taylor 型与 Langmuir 型活性位可在同一真实催化颗粒上共存并动态转换，为结构—活性关系提供了更直接的实验依据。",
-          "source_name": "Nature Catalysis",
-          "source_url": "https://www.nature.com/articles/s41929-026-01612-w",
-          "published_at": "2026-09-21"
+          "title": "Nature Materials 实现单一二维聚合物网络中的多级分子编织",
+          "summary": "《Nature Materials》发表多级分子编织研究，通过调节单体尺寸与溶剂模板，在同一个二维聚合物网络中构筑多种编织拓扑。该方法把宏观纺织中的层级结构控制引入分子材料，为精确调节二维聚合物的力学、孔道及电子性质提供了新的自下而上合成路径。",
+          "source_name": "Nature Materials",
+          "source_url": "https://www.nature.com/articles/s41563-026-02754-9",
+          "published_at": "2026-09-24"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "强厄尔尼诺威胁亚洲粮食安全，全球食品价格面临上行压力",
-          "summary": "美联社报道，2026 年厄尔尼诺正在增强，东南亚已面临干旱、山火、水位下降和渔业受损等影响。由于该地区是全球大米、棕榈油等重要供应地，若高温少雨持续，可能进一步推高粮食价格，并加重部分国家的粮食安全与民生压力。",
-          "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/31c88df9ce8f67bcbfe3ea7f39431d57",
-          "published_at": "2026-09-22"
+          "title": "俄伊外长称解决伊朗周边冲突没有外交以外的选择",
+          "summary": "俄罗斯外长拉夫罗夫与伊朗外长阿拉格齐在联合国大会期间会晤，双方称美国和以色列与伊朗之间的紧张局势只能通过外交途径解决。俄伊虽在 2025 年签署战略合作伙伴关系并深化防务合作，但协议不含共同防御条款，当前表态显示各方仍在为停火与谈判保留空间。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/middle-east/russian-iranian-foreign-ministers-say-only-diplomatic-solution-conflict-around-2026-09-25/",
+          "published_at": "2026-09-25"
         }
       ]
     },
@@ -57,11 +57,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "日本 9 月制造业继续扩张，但增长动能放缓",
-          "summary": "日本 9 月制造业活动仍扩张但增速放缓，标普全球初值数据显示产出和新订单增长弱于上月。该变化反映外需与成本压力仍在影响制造企业，也为观察日本先进制造、设备投资以及亚洲供应链景气度提供了新的高频信号。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/asia-pacific/japans-factory-activity-growth-slows-september-pmi-shows-2026-09-24/",
-          "published_at": "2026-09-24"
+          "title": "富士胶片首台印度制造 EP-6000 内镜系统落地 AIIMS",
+          "summary": "富士胶片印度公司将首台本地制造的 EP-6000 内镜系统交付新德里全印医学科学研究所。设备在拉贾斯坦邦焦特布尔工厂生产，序列号为 001，标志着高端内镜从进口供应转向本地制造，并有望借助大型公立医院完成临床验证、人才培训与后续规模化应用。",
+          "source_name": "Express Healthcare",
+          "source_url": "https://www.expresshealthcare.in/news/fujifilm-india-dedicates-first-made-in-india-ep-6000-endoscopy-system-to-aiims/455228/",
+          "published_at": "2026-09-22"
         }
       ]
     }

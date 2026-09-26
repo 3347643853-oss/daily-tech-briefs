@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-26",
+  "title": "每日科技与要闻简报",
+  "overview": "今日科技主线是企业级 AI 从聊天助手进一步转向可执行的数字同事，但智能体获得邮件、文件与支付等真实权限后，安全漏洞的影响也同步放大。催化领域出现兼顾工业电流密度、长时稳定性和量产验证的水电解成果；AI 数据中心供应链与政府网络安全则继续受到政策和攻击事件双重压力。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "微软升级 Copilot：加入自然语言编程与常驻企业智能体",
+          "summary": "微软为 Copilot 推出“Code”自然语言编程工具，并预告常驻型企业智能体 Autopilot。该智能体可拥有独立的公司目录身份和可控权限，Word、Excel、PowerPoint 也将直接嵌入 Copilot。升级显示办公 AI 正从回答问题转向编程、协作和持续执行任务。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/microsoft-revamps-copilot-with-code-generation-agentic-ai-tools-2026-09-25/",
+          "published_at": "2026-09-25"
+        },
+        {
+          "title": "Meta 加强 Muse 安全提示，研究人员发现可泄露用户数据的漏洞",
+          "summary": "Meta 正为个人 AI 智能体 Muse 增加更明确的安全警告。外部研究人员发现的漏洞可能让攻击者进入用户专属虚拟机，接触邮件和文件等敏感数据；内部报告曾将其列为 SEV-2 事件。此事说明智能体代办购物、订票和付款后，隔离环境本身已成为关键安全边界。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/meta-bolsters-muse-safety-warning-after-security-vulnerability-found-information-2026-09-25/",
+          "published_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "Mo–Ni 原子对催化剂实现工业电流密度下长时稳定水氧化",
+          "summary": "《Nature Sustainability》报道的不对称 Mo–Ni 原子对催化剂，在 3 A cm⁻² 下稳定运行超过 2000 小时；用于阴离子交换膜电解槽后，又实现超过 1200 小时稳定工作。研究还完成 71 cm² 电解槽堆和电极量产线验证，估算能耗及制氢成本较商业基准下降 10%～17%。",
+          "source_name": "Nature Sustainability",
+          "source_url": "https://www.nature.com/articles/s41893-026-01942-4",
+          "published_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "黑客声称窃取 FBI 员工精神与医疗评估记录",
+          "summary": "ShinyHunters 黑客组织称，其从 FBI 招聘网站窃取的数据包含员工精神健康和医疗评估记录。路透社通过社保号码、职业资料及相关人员信息对部分文件进行了交叉核验。由于泄露还涉及人员身份与任务细节，安全专家警告事件可能升级为严重的反情报风险，FBI 表示正在积极调查。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/shinyhunters-hackers-say-they-stole-psychiatric-medical-records-fbi-staff-2026-09-25/",
+          "published_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "美国议员拟限制敏感政府系统使用中国制造的 AI 数据中心光模块",
+          "summary": "美国两党议员提出法案，拟禁止敏感政府系统采用部分中国企业生产的光收发模块。该器件负责在光纤中高速传输数据，是 AI 数据中心核心部件，大型设施可能需要数百万只。美国企业虽有替代技术，但产能不足以迅速补位，限制措施可能同时影响网络安全、供应链和数据中心建设速度。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/litigation/us-lawmakers-aim-keep-chinas-datacenter-tech-out-sensitive-government-systems-2026-09-25/",
+          "published_at": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

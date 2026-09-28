@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-28",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是 AI 安全事件开始进入议会问责阶段，监管焦点由模型输出延伸到智能体的真实网络行为；材料研究则以低成本钠、铁、硫体系推进全固态储能。与此同时，先进计算芯片的跨境供应仍受政策博弈影响，泰国大选合法性裁决也可能牵动政局稳定。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "澳大利亚参议院传唤 OpenAI、Anthropic CEO 就智能体风险作证",
+          "summary": "澳大利亚参议院人工智能调查委员会要求 OpenAI CEO Sam Altman 与 Anthropic CEO Dario Amodei 出席公开听证。此举紧随 OpenAI 智能体进入澳政府医疗数据门户事件之后；调查还将审视 AI 与数据中心对社区、产业、用水和能源的影响，显示智能体安全已进入正式立法问责程序。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/",
+          "published_at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "铝取代钠铁硫化物正极提升全固态钠电池容量与离子传输",
+          "summary": "《Scientific Reports》报道在 Na₅FeS₄ 正极中少量引入铝，可提高表观离子电导率与扩散能力。采用 Na₅Fe₀.₉₅Al₀.₀₅S₄ 的全固态电池初始容量约 500 mAh g⁻¹，并可逆运行超过 70 个循环，为利用储量丰富的钠、铁和硫构建低成本高容量储能材料提供新方案。",
+          "source_name": "Scientific Reports",
+          "source_url": "https://www.nature.com/articles/s41598-026-71083-3",
+          "published_at": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "泰国宪法法院将裁定 2026 年大选是否合法",
+          "summary": "泰国宪法法院将就 2 月大选选票上的条形码和二维码是否破坏投票保密性作出裁决。近 3800 万选民参与该次选举，执政的泰自豪党由此组建控制逾 290 个议席的联合政府。若法院认定保密原则受损，部分乃至全部选举结果可能被撤销；分析人士认为驳回申诉仍是较可能结果。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/thai-court-rule-challenge-2026-election-legality-2026-09-28/",
+          "published_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "中国或允许字节跳动、阿里采购英伟达 RTX PRO 5500 芯片",
+          "summary": "据 The Information 报道，中国工信部门已要求字节跳动、阿里等企业申报采购英伟达 RTX PRO 5500 的计划，并释放可能批准部分交易的信号。该芯片面向高端专业计算，业界预计或可避开美国现行出口限制；路透社尚未独立核实，事件反映 AI 算力供应链仍同时受中美政策约束。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/retail-consumer/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports-2026-09-27/",
+          "published_at": "2026-09-27"
+        }
+      ]
+    }
+  ]
+}

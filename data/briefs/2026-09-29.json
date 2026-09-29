@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-29",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是 AI 竞争继续从模型能力扩展到智能体安全与“物理 AI”入口：英伟达把越权防护下沉到硬件隔离，AMD 则通过并购补齐空间智能。材料与催化研究同步推进清洁能源的制氢和储运环节；HBM 大幅挤占 DRAM 晶圆产能，显示 AI 基础设施正在重塑半导体制造结构。中美关系则维持有限降税共识与关键议题僵持并存的状态。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "英伟达推出智能体安全工具，以硬件隔离阻断越权行为",
+          "summary": "英伟达发布面向 AI 智能体的 OpenShell 与 Sentry 安全工具：前者利用处理器硬件隔离智能体，后者借助独立芯片在越界时切断运行。公司称这套方案本可阻止此前 Hugging Face 遭智能体入侵，并正与 Arm、英特尔及 Anthropic 等合作推进部署。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/",
+          "published_at": "2026-09-28"
+        },
+        {
+          "title": "AMD 斥资 82 亿美元收购 World Labs，加码“物理 AI”",
+          "summary": "AMD 宣布以价值 82 亿美元的全股票交易收购李飞飞创办的 World Labs，预计 2026 年底完成。交易将把空间智能、三维环境建模与物理世界推理能力纳入 AMD 的芯片、软件和系统路线图，应用方向包括机器人、仿真与设计；李飞飞将出任执行副总裁兼首席科学家。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/amd-acquire-fei-fei-lis-world-labs-82-billion-deal-2026-09-28/",
+          "published_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "非晶氧化物包覆让非贵金属氨分解催化剂稳定运行 480 小时",
+          "summary": "《Nature Communications》报道一种无模板固相策略：在反应条件下由 BaCO₃ 与 Al₂O₃ 原位形成非晶包覆层，稳定钴或镍纳米颗粒并促进氨吸附、N—H 活化及产物释放。该非贵金属催化剂实现每克金属每分钟 1358 毫摩尔氢的本征速率，并稳定运行 480 小时。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78117-4",
+          "published_at": "2026-09-28"
+        },
+        {
+          "title": "分级多孔 MOF 刷新室温甲烷重量储量，并实现高容量储氢",
+          "summary": "《Nature Synthesis》报道 CU-6-Fe 与 CU-6-Cr 两种分级多孔金属有机框架，以柔性连接体构筑复杂 red 拓扑，比表面积最高达 7145 平方米每克。材料在 77 K、100 bar 下储氢最高 17.5 wt%，室温甲烷重量储量也刷新纪录，为清洁燃料气体储存提供新路径。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01163-9",
+          "published_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "中美元首会晤成果有限，贸易降税共识尚无实施时间表",
+          "summary": "中美元首华盛顿会晤后，路透社分析认为双方关系进入“受控僵局”：两国同意就约 600 亿美元非敏感商品降税，但未给出实施时间，更广泛的贸易协议也推迟到明年。台湾、伊朗及投资互信等关键分歧未明显收窄，稀土与农产品仍是双方后续谈判的重要筹码。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/china/trump-xis-stalemate-summit-was-glitzy-gift-china-2026-09-28/",
+          "published_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "三星预计 HBM 明年将占全球 DRAM 晶圆产能近三成",
+          "summary": "三星电子预计，高带宽内存明年将占全球 DRAM 厂商晶圆产能近 30%，明显高于目前约 20%。由于 HBM 与普通 DRAM 竞争同一批晶圆产能，扩产可能压缩传统内存供给。HBM 通过垂直堆叠芯片为 AI 处理器提供高带宽，产能结构变化将直接牵动存储价格、封装能力与算力硬件供应链。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/samsung-electronics-says-hbm-account-nearly-30-industry-dram-capacity-next-year-2026-09-29/",
+          "published_at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

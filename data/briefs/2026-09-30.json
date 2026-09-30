@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-30",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是 AI 智能体由按需调用迈向跨应用、持续运行，权限控制与实际可靠性因此成为产品能力的一部分；催化研究通过配体与光化学协同，把镍催化剂用量压低到百 ppm 级。先进制造方面，四英寸单晶菱方氮化硼晶圆为高密度滑移铁电存储提供了规模化基础；国际局势则关注美军撤离伊拉克后的地区安全真空。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "OpenAI 发布常驻型 Dots 智能体，可跨应用持续执行企业任务",
+          "summary": "OpenAI 在年度开发者大会发布常驻型智能体 Dots，可持续追踪目标，并跨 Slack、Teams 调用 Codex 与 ChatGPT Work 完成研究、数据分析、文档和软件任务。用户可自定义行动规则，改密码或永久删除数据等敏感操作需明确授权；现场演示仍出现语音更新失败。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/",
+          "published_at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "配体设计将镍催化芳基溴化物偶联用量降至 100 ppm",
+          "summary": "《Nature Catalysis》报道通过机理导向配体设计提升 Ni(I) 的稳定性与氧化加成能力，并以可见光从稳定的 Ni(II) 前催化剂直接生成活性物种。该体系可偶联芳基溴化物与 N、O、S、P 亲核试剂，镍用量低至 100 ppm，且支持克级合成和复杂分子后期官能化。",
+          "source_name": "Nature Catalysis",
+          "source_url": "https://www.nature.com/articles/s41929-026-01616-6",
+          "published_at": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "美军撤离伊拉克最后基地，地区安全真空风险上升",
+          "summary": "美军开始撤出其在伊拉克的最后基地，结束自 2003 年入侵以来延续二十余年的军事存在。撤军安排于 2024 年达成，但伊拉克安全部门将失去关键情报、空中监视与侦察支持；当地官员和分析人士担忧伊朗支持的武装扩大影响，伊斯兰国残余也可能借安全真空重组。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/us-forces-exit-iraq-emboldening-irans-proxies-islamic-state-2026-09-30/",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "四英寸单晶菱方氮化硼晶圆实现高性能滑移铁电存储",
+          "summary": "《Nature Nanotechnology》报道利用台阶模板界面外延，批量制备高纯度四英寸单晶菱方氮化硼晶圆。基于该材料的滑移铁电晶体管实现纳秒级开关、超过 20 亿次循环和约十年非易失保持；30 纳米沟道下仍有 4 V 存储窗口，并可构建开关比达 10⁶ 的阵列。",
+          "source_name": "Nature Nanotechnology",
+          "source_url": "https://www.nature.com/articles/s41565-026-02280-4",
+          "published_at": "2026-09-29"
+        }
+      ]
+    }
+  ]
+}

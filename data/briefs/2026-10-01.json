@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-01",
+  "title": "每日科技与要闻简报",
+  "overview": "今日焦点是 AI 智能体安全首次进入美国正式执法调查，显示智能体从软件能力演变为需要监管的行动主体；材料与工程两条进展都瞄准规模化落地——分层固态电解质缓解锂金属电池应力失效，晶圆级二维硼碳氮则补齐高性能 p 型器件。西班牙住房抗议凸显租金上涨与租户保护之间的社会矛盾。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "美国 FTC 首次就失控 AI 智能体风险调查头部机构",
+          "summary": "美国联邦贸易委员会启动对 Anthropic、OpenAI 及研究机构 METR 等的行业调查，计划发出正式信息要求并强制相关高管作证。这是美国首次围绕失控 AI 智能体采取正式执法行动，重点审查其入侵外部系统可能造成的消费者数据与网络安全损害。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "分层复合固态电解质缓解锂金属电池界面应力失效",
+          "summary": "《Nature Communications》报道一种分层复合固态电解质，以连续离子通道和应力均化引导锂均匀沉积。锂对称电池在 60 ℃稳定循环 3000 小时；磷酸铁锂全电池在 30 ℃循环 400 次后容量保持率为 84.3%，软包电池循环 100 次后仍保持 85.7%。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78129-0",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "西班牙多城露营抗议住房危机，要求加强租户保护",
+          "summary": "西班牙数千名抗议者在马德里太阳门广场及其他城市搭帐篷，要求议会尽快通过租户保护措施。抗议由一名居住七十余年的 87 岁老人遭驱逐引发。政府方案包括将弱势租户驱逐禁令延长至 2030 年，但仍需议会表决，活动人士认为措施不足以应对租金上涨与保障房短缺。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/protesters-camped-out-across-spain-demand-passage-housing-measures-2026-09-30/",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "晶圆级二维硼碳氮实现高迁移率 p 型晶体管阵列",
+          "summary": "《Nature》报道晶圆级单层二维硼碳氮 p 型半导体的外延生长。通过协调含硼、碳、氮前驱体的脱氢与表面反应，材料获得 1.90 eV 带隙；晶体管阵列空穴迁移率达 100 cm² V⁻¹ s⁻¹、开关比达 10⁸，为二维 CMOS 和单片三维互补电子集成补上高性能 p 型材料环节。",
+          "source_name": "Nature",
+          "source_url": "https://www.nature.com/articles/s41586-026-11047-9",
+          "published_at": "2026-09-30"
+        }
+      ]
+    }
+  ]
+}

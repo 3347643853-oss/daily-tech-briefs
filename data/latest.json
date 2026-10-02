@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "title": "每日科技与要闻简报",
-  "overview": "今日焦点是 AI 智能体安全首次进入美国正式执法调查，显示智能体从软件能力演变为需要监管的行动主体；材料与工程两条进展都瞄准规模化落地——分层固态电解质缓解锂金属电池应力失效，晶圆级二维硼碳氮则补齐高性能 p 型器件。西班牙住房抗议凸显租金上涨与租户保护之间的社会矛盾。",
+  "overview": "今日重点是前沿 AI 模型在能力扩张的同时采用分阶段开放，安全评估已成为发布流程的一部分；催化研究则把惰性乙烷的碳链增长降到室温。欧洲正通过扩建本土超算产能提升计算自主性，而基辅学校与关键交通设施遭无人机袭击，再次凸显冲突对城市公共系统的直接冲击。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "美国 FTC 首次就失控 AI 智能体风险调查头部机构",
-          "summary": "美国联邦贸易委员会启动对 Anthropic、OpenAI 及研究机构 METR 等的行业调查，计划发出正式信息要求并强制相关高管作证。这是美国首次围绕失控 AI 智能体采取正式执法行动，重点审查其入侵外部系统可能造成的消费者数据与网络安全损害。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+          "title": "Google 发布 Gemini 4 Argon，先向可信网络防御机构开放",
+          "summary": "Google 发布旗舰模型 Gemini 4 Argon，面向长链软件工程、法律金融知识工作和网络防御，输出上限扩至 100 万 token。模型先通过 Fairwind 计划向可信网络安全机构开放，并参与美国政府预发布评估；更广泛开放前将继续测试提示注入等防护。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
           "published_at": "2026-09-30"
         }
       ]
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "分层复合固态电解质缓解锂金属电池界面应力失效",
-          "summary": "《Nature Communications》报道一种分层复合固态电解质，以连续离子通道和应力均化引导锂均匀沉积。锂对称电池在 60 ℃稳定循环 3000 小时；磷酸铁锂全电池在 30 ℃循环 400 次后容量保持率为 84.3%，软包电池循环 100 次后仍保持 85.7%。",
-          "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-78129-0",
-          "published_at": "2026-09-30"
+          "title": "铜催化实现室温乙烷—CO 偶联制丙酸",
+          "summary": "《Nature Synthesis》报道铜催化乙烷与一氧化碳在稀酸、氧气存在下室温偶联制丙酸。表面吸附氧促进乙烷 C—H 活化，溶出的 Cu⁺ 生成参与成键的 CO 物种；最高生成速率达 120 μmol gCu⁻¹ h⁻¹、选择性 50%，降低速率时选择性最高 83%。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01168-4",
+          "published_at": "2026-10-01"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "西班牙多城露营抗议住房危机，要求加强租户保护",
-          "summary": "西班牙数千名抗议者在马德里太阳门广场及其他城市搭帐篷，要求议会尽快通过租户保护措施。抗议由一名居住七十余年的 87 岁老人遭驱逐引发。政府方案包括将弱势租户驱逐禁令延长至 2030 年，但仍需议会表决，活动人士认为措施不足以应对租金上涨与保障房短缺。",
+          "title": "俄无人机击中基辅学校与关键桥梁，百余名学生避险",
+          "summary": "俄罗斯无人机击中基辅一所学校和横跨第聂伯河的南桥。校内百余名学生当时均在避难所，无人受伤；南桥道路、支撑结构和地铁防护设施受损，轨道及地面公共交通暂停。乌方称近期喷气式无人机飞得更高更快，使本已吃紧的城市防空系统承受更大压力。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/protesters-camped-out-across-spain-demand-passage-housing-measures-2026-09-30/",
-          "published_at": "2026-09-30"
+          "source_url": "https://www.reuters.com/world/europe/russian-air-strikes-injure-two-ukraines-kyiv-odesa-officials-say-2026-10-01/",
+          "published_at": "2026-10-01"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "晶圆级二维硼碳氮实现高迁移率 p 型晶体管阵列",
-          "summary": "《Nature》报道晶圆级单层二维硼碳氮 p 型半导体的外延生长。通过协调含硼、碳、氮前驱体的脱氢与表面反应，材料获得 1.90 eV 带隙；晶体管阵列空穴迁移率达 100 cm² V⁻¹ s⁻¹、开关比达 10⁸，为二维 CMOS 和单片三维互补电子集成补上高性能 p 型材料环节。",
-          "source_name": "Nature",
-          "source_url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-09-30"
+          "title": "法国 Bull 超算工厂产能翻倍，欧洲零部件占比升至七成",
+          "summary": "法国国有超算制造商 Bull 扩建昂热工厂，将产量从每月 6 个机架增至 12 个，明年可按需求升至 24 个。该厂是欧洲唯一专门制造超算的工厂，已承接法国 Alice Recoque 和芬兰 LUMI-AI 等系统；在建机器欧洲零部件占比已由五年前的 20%～30% 升至 70%。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/europe/french-supercomputer-maker-bull-doubles-output-boost-europes-ai-ambitions-2026-10-01/",
+          "published_at": "2026-10-01"
         }
       ]
     }

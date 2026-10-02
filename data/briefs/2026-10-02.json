@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-02",
+  "title": "每日科技与要闻简报",
+  "overview": "今日重点是前沿 AI 模型在能力扩张的同时采用分阶段开放，安全评估已成为发布流程的一部分；催化研究则把惰性乙烷的碳链增长降到室温。欧洲正通过扩建本土超算产能提升计算自主性，而基辅学校与关键交通设施遭无人机袭击，再次凸显冲突对城市公共系统的直接冲击。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Google 发布 Gemini 4 Argon，先向可信网络防御机构开放",
+          "summary": "Google 发布旗舰模型 Gemini 4 Argon，面向长链软件工程、法律金融知识工作和网络防御，输出上限扩至 100 万 token。模型先通过 Fairwind 计划向可信网络安全机构开放，并参与美国政府预发布评估；更广泛开放前将继续测试提示注入等防护。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "铜催化实现室温乙烷—CO 偶联制丙酸",
+          "summary": "《Nature Synthesis》报道铜催化乙烷与一氧化碳在稀酸、氧气存在下室温偶联制丙酸。表面吸附氧促进乙烷 C—H 活化，溶出的 Cu⁺ 生成参与成键的 CO 物种；最高生成速率达 120 μmol gCu⁻¹ h⁻¹、选择性 50%，降低速率时选择性最高 83%。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01168-4",
+          "published_at": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "俄无人机击中基辅学校与关键桥梁，百余名学生避险",
+          "summary": "俄罗斯无人机击中基辅一所学校和横跨第聂伯河的南桥。校内百余名学生当时均在避难所，无人受伤；南桥道路、支撑结构和地铁防护设施受损，轨道及地面公共交通暂停。乌方称近期喷气式无人机飞得更高更快，使本已吃紧的城市防空系统承受更大压力。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/europe/russian-air-strikes-injure-two-ukraines-kyiv-odesa-officials-say-2026-10-01/",
+          "published_at": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "法国 Bull 超算工厂产能翻倍，欧洲零部件占比升至七成",
+          "summary": "法国国有超算制造商 Bull 扩建昂热工厂，将产量从每月 6 个机架增至 12 个，明年可按需求升至 24 个。该厂是欧洲唯一专门制造超算的工厂，已承接法国 Alice Recoque 和芬兰 LUMI-AI 等系统；在建机器欧洲零部件占比已由五年前的 20%～30% 升至 70%。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/europe/french-supercomputer-maker-bull-doubles-output-boost-europes-ai-ambitions-2026-10-01/",
+          "published_at": "2026-10-01"
+        }
+      ]
+    }
+  ]
+}

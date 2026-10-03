@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "title": "每日科技与要闻简报",
-  "overview": "今日重点是前沿 AI 模型在能力扩张的同时采用分阶段开放，安全评估已成为发布流程的一部分；催化研究则把惰性乙烷的碳链增长降到室温。欧洲正通过扩建本土超算产能提升计算自主性，而基辅学校与关键交通设施遭无人机袭击，再次凸显冲突对城市公共系统的直接冲击。",
+  "overview": "今日主线是 AI 智能体进入个人电脑后，操作系统开始把数据授权本身设计成新的安全边界；化学合成则通过光、电与双金属催化协同，让未经预活化的常见官能团直接参与碳—碳成键。华为以三维芯片布线探索受限制程下的性能提升，而法国校园抗议显示公共教育投入问题正在演化为全国性社会冲突。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Google 发布 Gemini 4 Argon，先向可信网络防御机构开放",
-          "summary": "Google 发布旗舰模型 Gemini 4 Argon，面向长链软件工程、法律金融知识工作和网络防御，输出上限扩至 100 万 token。模型先通过 Fairwind 计划向可信网络安全机构开放，并参与美国政府预发布评估；更广泛开放前将继续测试提示注入等防护。",
-          "source_name": "Google",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "published_at": "2026-09-30"
+          "title": "Apple 将加强 Mac 智能体全盘数据访问的授权控制",
+          "summary": "Apple 宣布调整 macOS 权限机制，当 AI 智能体或其他应用请求“全盘访问”时，用户必须作出更明确的授权操作。此前部分用户质疑 Meta Muse 读取私人消息，Meta 称相关权限须主动开启。随着智能体可跨应用执行任务，操作系统级数据隔离与可撤销授权正成为关键安全边界。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/retail-consumer/apple-says-it-will-flag-ai-requests-mac-data-after-metas-muse-draws-complaints-2026-10-02/",
+          "published_at": "2026-10-02"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "铜催化实现室温乙烷—CO 偶联制丙酸",
-          "summary": "《Nature Synthesis》报道铜催化乙烷与一氧化碳在稀酸、氧气存在下室温偶联制丙酸。表面吸附氧促进乙烷 C—H 活化，溶出的 Cu⁺ 生成参与成键的 CO 物种；最高生成速率达 120 μmol gCu⁻¹ h⁻¹、选择性 50%，降低速率时选择性最高 83%。",
+          "title": "光电协同铁镍双催化实现原生官能团直接碳—碳偶联",
+          "summary": "《Nature Synthesis》报道一种光电化学 C(sp³)–C(sp³) 交叉偶联方法，以光诱导电荷转移温和生成自由基，并用电化学调控催化氧化还原平衡。铁—镍双催化体系可直接利用羧酸、醇和醛，无需预活化即可完成脱羧、脱羟甲基及脱甲酰偶联，并覆盖一级至位阻三级碳中心。",
           "source_name": "Nature Synthesis",
-          "source_url": "https://www.nature.com/articles/s44160-026-01168-4",
-          "published_at": "2026-10-01"
+          "source_url": "https://www.nature.com/articles/s44160-026-01162-w",
+          "published_at": "2026-10-02"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "俄无人机击中基辅学校与关键桥梁，百余名学生避险",
-          "summary": "俄罗斯无人机击中基辅一所学校和横跨第聂伯河的南桥。校内百余名学生当时均在避难所，无人受伤；南桥道路、支撑结构和地铁防护设施受损，轨道及地面公共交通暂停。乌方称近期喷气式无人机飞得更高更快，使本已吃紧的城市防空系统承受更大压力。",
+          "title": "法国校园条件与经费抗议升级，约四百所高中关闭",
+          "summary": "法国高中生围绕班级拥挤、师资短缺、校舍老化和教育经费举行的抗议扩散至全国，多地学生与防暴警察冲突。政府称约 400 所高中关闭，周内累计约 5000 人被捕、65 名教育人员受伤；教师工会宣布下周罢工，警方对未成年人使用催泪瓦斯等做法也受到权利团体质疑。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/europe/russian-air-strikes-injure-two-ukraines-kyiv-odesa-officials-say-2026-10-01/",
-          "published_at": "2026-10-01"
+          "source_url": "https://www.reuters.com/world/about-400-french-schools-closed-some-student-protests-turn-violent-2026-10-02/",
+          "published_at": "2026-10-02"
         }
       ]
     },
@@ -43,10 +43,10 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "法国 Bull 超算工厂产能翻倍，欧洲零部件占比升至七成",
-          "summary": "法国国有超算制造商 Bull 扩建昂热工厂，将产量从每月 6 个机架增至 12 个，明年可按需求升至 24 个。该厂是欧洲唯一专门制造超算的工厂，已承接法国 Alice Recoque 和芬兰 LUMI-AI 等系统；在建机器欧洲零部件占比已由五年前的 20%～30% 升至 70%。",
+          "title": "华为 Mate 90 采用三维布线芯片架构应对先进制程限制",
+          "summary": "华为发布 Mate 90 系列，旗舰机搭载采用“LogicFolding”技术的麒麟 9050 Pro，通过重构芯片内部三维布线提高密度与速度，但制造需消耗更多晶圆。新品运行 HarmonyOS 7，华为称高端机整体性能较上代提升 31%；公司同时承认国内先进芯片产能仍紧张。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/europe/french-supercomputer-maker-bull-doubles-output-boost-europes-ai-ambitions-2026-10-01/",
+          "source_url": "https://www.reuters.com/business/retail-consumer/huawei-unveils-mate-90-phones-leans-homegrown-chip-design-offset-us-curbs-2026-10-01/",
           "published_at": "2026-10-01"
         }
       ]

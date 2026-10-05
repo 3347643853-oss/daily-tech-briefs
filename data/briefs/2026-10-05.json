@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-05",
+  "title": "每日科技与要闻简报",
+  "overview": "今日焦点是 AI 正从通用模型能力进一步进入科研制度、数据和实验设施建设；材料领域探索以氢等离子体同时完成硅的还原与提纯，先进制造则继续优化难加工复合材料的表面质量。与此同时，也门战事升级正在加剧红海航运与人道风险。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "美国等17国发布“京都愿景”，推动 AI 深度进入科研工作流",
+          "summary": "美国、日本、英国、德国等17国在京都科技与社会论坛共同认可“京都愿景”，提出扩大科研人员对 AI 工具、科学数据、算力及实验设施的访问，并探索自主实验和新型科研资助机制。该倡议显示 AI for Science 正从单点工具应用上升为跨国科研基础设施议题。",
+          "source_name": "The White House",
+          "source_url": "https://www.whitehouse.gov/releases/2026/10/us-leads-international-coalition-to-endorse-kyoto-vision-for-a-golden-age-of-science/",
+          "published_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "飞行式氢等离子体两分钟内将石英和稻壳硅源转化为晶态硅",
+          "summary": "《Scientific Reports》报道连续飞行式氢等离子体工艺，在10%氢—氩气氛中处理石英和稻壳来源粉末仅两分钟，即生成晶态硅，局部富硅颗粒纯度超过2N。该路线尝试绕开碳热还原和后续高耗能提纯，并把农业废弃物中的二氧化硅转化为硅产品。",
+          "source_name": "Scientific Reports",
+          "source_url": "https://www.nature.com/articles/s41598-026-74124-z",
+          "published_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "也门政府发动全面反攻，红海关键航道与人道局势再度承压",
+          "summary": "受沙特支持并获国际承认的也门政府宣布对胡塞武装发动大规模反攻，目标是夺回其控制地区。胡塞武装此前占领曼德海峡及约150公里红海海岸，并声称袭击沙特石油设施。战事已造成数万人流离失所，世界粮食计划署称部分地区四分之三家庭面临饥饿。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/",
+          "published_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "线切割参数优化改善铝基混杂复合材料切缝与表面质量",
+          "summary": "《Scientific Reports》研究制备含碳化钛和六方氮化硼的AA4032铝基复合材料，并系统评估峰值电流、电压和脉冲时间对线切割加工的影响。结果表明电流与脉冲时间升高会加剧热侵蚀；6% TiC—2% h-BN配方获得更小切缝，为汽车和航空精密零件加工提供参数依据。",
+          "source_name": "Scientific Reports",
+          "source_url": "https://www.nature.com/articles/s41598-026-74184-1",
+          "published_at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

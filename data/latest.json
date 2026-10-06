@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "title": "每日科技与要闻简报",
-  "overview": "今日焦点是 AI 正从通用模型能力进一步进入科研制度、数据和实验设施建设；材料领域探索以氢等离子体同时完成硅的还原与提纯，先进制造则继续优化难加工复合材料的表面质量。与此同时，也门战事升级正在加剧红海航运与人道风险。",
+  "overview": "今日主线是开放权重模型竞争进一步转向编程与智能体任务，同时催化研究以光子—声子协同突破单一能量输入的效率限制。先进制造则将增材成形与原位成分调控结合，直接获得复杂软磁部件；西班牙住房政策僵局促使政治进程提前进入大选阶段。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "美国等17国发布“京都愿景”，推动 AI 深度进入科研工作流",
-          "summary": "美国、日本、英国、德国等17国在京都科技与社会论坛共同认可“京都愿景”，提出扩大科研人员对 AI 工具、科学数据、算力及实验设施的访问，并探索自主实验和新型科研资助机制。该倡议显示 AI for Science 正从单点工具应用上升为跨国科研基础设施议题。",
-          "source_name": "The White House",
-          "source_url": "https://www.whitehouse.gov/releases/2026/10/us-leads-international-coalition-to-endorse-kyoto-vision-for-a-golden-age-of-science/",
-          "published_at": "2026-10-04"
+          "title": "英伟达支持的 Reflection 发布开放权重模型 Beam",
+          "summary": "Reflection AI 推出首个开放权重模型 Beam，采用混合专家架构，总参数量5010亿，但每项任务仅激活230亿参数，以降低推理成本。公司称其在编程和智能体任务上可与智谱 GLM-5.2 竞争，并接近 Qwen3.8-Max，反映美国厂商正重新争夺开放模型生态。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/",
+          "published_at": "2026-10-05"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "飞行式氢等离子体两分钟内将石英和稻壳硅源转化为晶态硅",
-          "summary": "《Scientific Reports》报道连续飞行式氢等离子体工艺，在10%氢—氩气氛中处理石英和稻壳来源粉末仅两分钟，即生成晶态硅，局部富硅颗粒纯度超过2N。该路线尝试绕开碳热还原和后续高耗能提纯，并把农业废弃物中的二氧化硅转化为硅产品。",
-          "source_name": "Scientific Reports",
-          "source_url": "https://www.nature.com/articles/s41598-026-74124-z",
-          "published_at": "2026-10-04"
+          "title": "光子—声子协同催化甲醇联产氢气与高浓度甲醛",
+          "summary": "《Nature Sustainability》报道以锂调控微环境稳定 TiO₂ 表面的 Pt 单原子簇，在150℃光热协同条件下实现每克催化剂每小时4.36摩尔产氢，整体量子产率184%。体系同时以94%选择性生成甲醛，并稳定运行至少19天，为甲醇储运氢和联产化学品提供新路线。",
+          "source_name": "Nature Sustainability",
+          "source_url": "https://www.nature.com/articles/s41893-026-01959-9",
+          "published_at": "2026-10-05"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "也门政府发动全面反攻，红海关键航道与人道局势再度承压",
-          "summary": "受沙特支持并获国际承认的也门政府宣布对胡塞武装发动大规模反攻，目标是夺回其控制地区。胡塞武装此前占领曼德海峡及约150公里红海海岸，并声称袭击沙特石油设施。战事已造成数万人流离失所，世界粮食计划署称部分地区四分之三家庭面临饥饿。",
+          "title": "西班牙宣布11月29日提前大选，住房危机成核心议题",
+          "summary": "西班牙首相桑切斯宣布把原定明年的大选提前至11月29日。此前反对党否决限制租金和暂停部分驱逐的住房法令，而调查显示68%的受访者支持租金上限。多数民调显示中左翼阵营落后，提前投票可能使住房抗议、移民政策及政党腐败争议共同决定政权走向。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/",
-          "published_at": "2026-10-04"
+          "source_url": "https://www.reuters.com/world/europe/spains-gambler-pm-sanchez-seeks-defy-odds-again-snap-election-2026-10-05/",
+          "published_at": "2026-10-05"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "线切割参数优化改善铝基混杂复合材料切缝与表面质量",
-          "summary": "《Scientific Reports》研究制备含碳化钛和六方氮化硼的AA4032铝基复合材料，并系统评估峰值电流、电压和脉冲时间对线切割加工的影响。结果表明电流与脉冲时间升高会加剧热侵蚀；6% TiC—2% h-BN配方获得更小切缝，为汽车和航空精密零件加工提供参数依据。",
-          "source_name": "Scientific Reports",
-          "source_url": "https://www.nature.com/articles/s41598-026-74184-1",
-          "published_at": "2026-10-04"
+          "title": "粘结剂喷射原位渗碳制造低矫顽力高电阻中熵合金",
+          "summary": "《Communications Materials》报道利用粘结剂喷射成形与原位碳掺杂，制得复杂形状的 Fe₄₃.₂Co₂₈.₈Ni₂₄Cr₄ 中熵合金。材料矫顽力低至30 A/m、电阻率达146 μΩ·cm，兼顾软磁性能、涡流损耗抑制与近净成形能力，为电机和高频磁性部件制造提供新方案。",
+          "source_name": "Communications Materials",
+          "source_url": "https://www.nature.com/articles/s43246-026-01389-2",
+          "published_at": "2026-10-05"
         }
       ]
     }

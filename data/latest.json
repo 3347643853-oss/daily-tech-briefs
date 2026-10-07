@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是开放权重模型竞争进一步转向编程与智能体任务，同时催化研究以光子—声子协同突破单一能量输入的效率限制。先进制造则将增材成形与原位成分调控结合，直接获得复杂软磁部件；西班牙住房政策僵局促使政治进程提前进入大选阶段。",
+  "overview": "今日主线是欧洲开放权重模型竞争加速，Mistral把网络安全测试纳入正式发布前流程；催化研究以机理计算指导复杂芳香体系的高选择性去芳构化。材料与制造方面，机器学习帮助突破介电常数、损耗和温度稳定性之间的权衡；全球能源库存缓冲快速消耗，则使供应链面对更高的冬季冲击风险。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "英伟达支持的 Reflection 发布开放权重模型 Beam",
-          "summary": "Reflection AI 推出首个开放权重模型 Beam，采用混合专家架构，总参数量5010亿，但每项任务仅激活230亿参数，以降低推理成本。公司称其在编程和智能体任务上可与智谱 GLM-5.2 竞争，并接近 Qwen3.8-Max，反映美国厂商正重新争夺开放模型生态。",
+          "title": "Mistral 发布 Large 4，开放权重模型竞争升温",
+          "summary": "法国 Mistral 发布旗舰模型 Large 4，称其在编程、金融、地理分析、制造和产品设计等领域正缩小与前沿模型的差距，并在部分网络安全任务上超过中国开放模型。模型计划10月27日公开，发布前将先交由安全专家和政府机构开展低限制测试。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/",
-          "published_at": "2026-10-05"
+          "source_url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
+          "published_at": "2026-10-06"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "光子—声子协同催化甲醇联产氢气与高浓度甲醛",
-          "summary": "《Nature Sustainability》报道以锂调控微环境稳定 TiO₂ 表面的 Pt 单原子簇，在150℃光热协同条件下实现每克催化剂每小时4.36摩尔产氢，整体量子产率184%。体系同时以94%选择性生成甲醛，并稳定运行至少19天，为甲醇储运氢和联产化学品提供新路线。",
-          "source_name": "Nature Sustainability",
-          "source_url": "https://www.nature.com/articles/s41893-026-01959-9",
-          "published_at": "2026-10-05"
+          "title": "机理导向策略实现多类芳杂环的不对称去芳构化",
+          "summary": "《Nature Communications》报道利用亚乙烯基邻醌甲基化物的多位点反应特性，对蒽、喹啉及二苯并咔唑等芳杂环实施不对称去芳构化环加成。密度泛函计算揭示电荷分布与前线轨道决定区域选择性，反应同时获得优异的区域、化学和对映选择性。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78282-6",
+          "published_at": "2026-10-06"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "西班牙宣布11月29日提前大选，住房危机成核心议题",
-          "summary": "西班牙首相桑切斯宣布把原定明年的大选提前至11月29日。此前反对党否决限制租金和暂停部分驱逐的住房法令，而调查显示68%的受访者支持租金上限。多数民调显示中左翼阵营落后，提前投票可能使住房抗议、移民政策及政党腐败争议共同决定政权走向。",
+          "title": "全球可调用石油库存缓冲接近耗尽，冬季供应风险上升",
+          "summary": "多家能源企业在伦敦论坛警告，全球可实际调用的石油库存正在快速下降，今年因中东和乌克兰战争已释放逾10亿桶库存。国际能源署拟再释放1亿桶原油和柴油，但美国战略石油储备已降至1982年以来最低，天然气库存同样偏低，严冬可能放大价格与供应冲击。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/europe/spains-gambler-pm-sanchez-seeks-defy-odds-again-snap-election-2026-10-05/",
-          "published_at": "2026-10-05"
+          "source_url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
+          "published_at": "2026-10-06"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "粘结剂喷射原位渗碳制造低矫顽力高电阻中熵合金",
-          "summary": "《Communications Materials》报道利用粘结剂喷射成形与原位碳掺杂，制得复杂形状的 Fe₄₃.₂Co₂₈.₈Ni₂₄Cr₄ 中熵合金。材料矫顽力低至30 A/m、电阻率达146 μΩ·cm，兼顾软磁性能、涡流损耗抑制与近净成形能力，为电机和高频磁性部件制造提供新方案。",
-          "source_name": "Communications Materials",
-          "source_url": "https://www.nature.com/articles/s43246-026-01389-2",
-          "published_at": "2026-10-05"
+          "title": "机器学习设计温稳高介电陶瓷，芯片电容体积缩小85%",
+          "summary": "《Nature Electronics》通过分层机器学习筛选钨青铜结构并优化铋、锗共掺杂，获得介电常数约185、损耗低于0.0005且温度系数不超过±30 ppm/K的陶瓷。原型单层芯片电容较领先商用品体积缩小85%，同时保持低损耗和温度稳定性。",
+          "source_name": "Nature Electronics",
+          "source_url": "https://www.nature.com/articles/s41928-026-01721-1",
+          "published_at": "2026-10-06"
         }
       ]
     }

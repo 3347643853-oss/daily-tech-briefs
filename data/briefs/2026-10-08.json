@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-08",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是 AI 模型继续向低成本、高频实时应用下沉，同时把高风险网络安全请求防护嵌入轻量模型；合成化学则通过亲核试剂的反应性与配位差异实现可编程顺序组装。先进材料方面，7 eV 超宽禁带氧化物为高压电子器件打开新空间；俄乌冲突中的大规模导弹与无人机袭击再次造成严重平民伤亡。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Anthropic 发布 Claude Haiku 5.5，成本较前代降低75%",
+          "summary": "Anthropic 发布 Claude Haiku 5.5，定位于分类、摘要、信息抽取、实时客服、语音智能体和应用内助手等高频任务，使用成本较 Haiku 4.5 降低75%。这是 Claude 5.5 系列一个月内的第三款模型，也是首个内置针对少量高风险网络安全请求防护的 Haiku。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
+          "published_at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "钯催化“分子排序”实现手性1,2-氨基醇模块化合成",
+          "summary": "《Nature Chemistry》报道钯催化正交多组分策略，使反应性相近的 N—H 与 O—H 亲核试剂按预定顺序接入炔丙基碳酸酯。较强亲核体先外球加成，配位能力更强的较弱亲核体再内球进攻，从而高选择性合成手性1,2-氨基醇和1,2-二醇。",
+          "source_name": "Nature Chemistry",
+          "source_url": "https://www.nature.com/articles/s41557-026-02263-x",
+          "published_at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "俄军大规模导弹与无人机袭击乌克兰，至少28人死亡",
+          "summary": "俄罗斯向乌克兰多地发射70枚导弹及数十架无人机，造成至少28人死亡、约100人受伤。切尔尼戈夫州普里卢基一栋五层住宅楼被摧毁，20名死者中包括5名儿童。乌军称拦截超过八成喷气式无人机，但高速弹道导弹仍是防空体系面临的主要缺口。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/",
+          "published_at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "硅掺杂氧化物半导体实现超过7 eV的超宽禁带",
+          "summary": "《Nature》报道利用亚氧化物分子束外延生长硅掺杂 α-(AlₓGa₁₋ₓ)₂O₃ 薄膜，禁带宽度超过7.0 eV，高于此前已知超宽禁带半导体立方氮化硼。该成果把可掺杂氧化物的禁带边界进一步推高，为耐高压、低漏电功率器件及极端环境电子技术提供候选材料。",
+          "source_name": "Nature",
+          "source_url": "https://www.nature.com/articles/s41586-026-11085-3",
+          "published_at": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

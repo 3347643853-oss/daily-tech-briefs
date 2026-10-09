@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是 AI 模型继续向低成本、高频实时应用下沉，同时把高风险网络安全请求防护嵌入轻量模型；合成化学则通过亲核试剂的反应性与配位差异实现可编程顺序组装。先进材料方面，7 eV 超宽禁带氧化物为高压电子器件打开新空间；俄乌冲突中的大规模导弹与无人机袭击再次造成严重平民伤亡。",
+  "overview": "企业级 AI 智能体正从对话工具转向可连接业务系统、交付完整工作成果的平台；催化研究通过不对称双位点提升废塑料电化学升级效率。与此同时，美国收紧技术人才移民通道，下一代 Hyper-NA EUV 光刻路线也开始形成较清晰的工程时间表。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Anthropic 发布 Claude Haiku 5.5，成本较前代降低75%",
-          "summary": "Anthropic 发布 Claude Haiku 5.5，定位于分类、摘要、信息抽取、实时客服、语音智能体和应用内助手等高频任务，使用成本较 Haiku 4.5 降低75%。这是 Claude 5.5 系列一个月内的第三款模型，也是首个内置针对少量高风险网络安全请求防护的 Haiku。",
+          "title": "Google Cloud 推出企业级 Gemini 智能体，打通办公与业务系统",
+          "summary": "Google Cloud 发布面向工作的 Gemini 智能体，可规划任务、调用工具并连接企业业务系统，在文档、邮件和开发环境中交付成果。它嵌入 Gmail、Docs、Sheets 与 Calendar，也支持 Microsoft 365 和 Slack，并可创建权限受控的“同事智能体”。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
-          "published_at": "2026-10-07"
+          "source_url": "https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/",
+          "published_at": "2026-10-08"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "钯催化“分子排序”实现手性1,2-氨基醇模块化合成",
-          "summary": "《Nature Chemistry》报道钯催化正交多组分策略，使反应性相近的 N—H 与 O—H 亲核试剂按预定顺序接入炔丙基碳酸酯。较强亲核体先外球加成，配位能力更强的较弱亲核体再内球进攻，从而高选择性合成手性1,2-氨基醇和1,2-二醇。",
-          "source_name": "Nature Chemistry",
-          "source_url": "https://www.nature.com/articles/s41557-026-02263-x",
-          "published_at": "2026-10-07"
+          "title": "不对称 Co²⁺–O–Coδ⁺位点推动 PET 废塑料高效电化学升级",
+          "summary": "《Nature Communications》报道一种晶界工程催化剂：Co²⁺位点优先吸附羟基，Coδ⁺位点增强乙二醇吸附，从而降低生成甲酸的能垒。体系实现 96.12% 法拉第效率和 93.75% 选择性，并在膜电极组件中达到 1000 mA cm⁻² 工业级电流密度。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-77783-8",
+          "published_at": "2026-10-08"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "俄军大规模导弹与无人机袭击乌克兰，至少28人死亡",
-          "summary": "俄罗斯向乌克兰多地发射70枚导弹及数十架无人机，造成至少28人死亡、约100人受伤。切尔尼戈夫州普里卢基一栋五层住宅楼被摧毁，20名死者中包括5名儿童。乌军称拦截超过八成喷气式无人机，但高速弹道导弹仍是防空体系面临的主要缺口。",
+          "title": "美国暂停微软等企业的职业绿卡项目，并调查九所高校",
+          "summary": "美国政府暂停微软、Adobe 及多家 IT 外包企业新的和待审 PERM 职业绿卡申请，同时调查哈佛、耶鲁、斯坦福等九所高校的交流访问签证使用情况。该措施可能切断部分外籍科技人才转为永久居民的常用途径，也将影响企业招聘与高校科研人员流动。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/",
-          "published_at": "2026-10-07"
+          "source_url": "https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/",
+          "published_at": "2026-10-08"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "硅掺杂氧化物半导体实现超过7 eV的超宽禁带",
-          "summary": "《Nature》报道利用亚氧化物分子束外延生长硅掺杂 α-(AlₓGa₁₋ₓ)₂O₃ 薄膜，禁带宽度超过7.0 eV，高于此前已知超宽禁带半导体立方氮化硼。该成果把可掺杂氧化物的禁带边界进一步推高，为耐高压、低漏电功率器件及极端环境电子技术提供候选材料。",
-          "source_name": "Nature",
-          "source_url": "https://www.nature.com/articles/s41586-026-11085-3",
-          "published_at": "2026-10-07"
+          "title": "ASML 与蔡司推进 Hyper-NA EUV，目标约十年后实现更小曝光特征",
+          "summary": "ASML 与蔡司工程师在同行评议论文中提出，下一代 Hyper-NA EUV 光刻技术约十年后可能就绪，可打印约 5 纳米特征，比现有 High-NA 工具缩小逾三分之一。方案有望复用当前光源和大量既有技术，但 ASML 尚未承诺量产，工程集成仍面临挑战。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/",
+          "published_at": "2026-10-08"
         }
       ]
     }

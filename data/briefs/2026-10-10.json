@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-10",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是智能体获得真实网络操作能力后，安全工具也可能迅速转化为攻击基础设施；催化研究则以双位点和纳米限域把污染治理推进到资源化回收。与此同时，巴拿马经受罕见强震考验，韩国芯片制造扩张进一步加速。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "ARTEX 智能体被用于韩国银行攻击，开发者停止开源",
+          "summary": "开源渗透测试智能体 ARTEX 被网络安全机构指认为韩国银行攻击工具后，开发者宣布转为闭源、停止发布和维护。该系统可连接 ChatGPT、Claude 和 DeepSeek 自动测试网络漏洞；至少九家韩国银行成为攻击目标，事件凸显双用途智能体从安全评估转向真实攻击的风险。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/china/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack-2026-10-09/",
+          "published_at": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "Fe–Mo 双位点纳米反应器将酚类污染物定向转为低聚物",
+          "summary": "《Nature Communications》报道空间解耦 Fe–Mo 双位点催化剂，通过活化过一硫酸盐和质子耦合电子转移，引导酚类污染物受控低聚。孔道限域使产物分子量保持在418～1142 g·mol⁻¹、分散系数低于1.2；连续膜系统运行超过144小时并实现100%苯酚去除。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78258-6",
+          "published_at": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "巴拿马发生7.7级强震，运河和国际机场恢复正常运行",
+          "summary": "巴拿马南部发生7.7级地震，震源深度约12.6公里，首都等地持续明显震动并出现40余次余震。部分建筑受损、六省停电，但暂未报告死亡或受伤；巴拿马运河及大型铜矿维持运行，托库门国际机场也解除航班暂停。约4.3万人处于严重震感区域。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/environment/strong-80-magnitude-earthquake-felt-panama-usgs-2026-10-09/",
+          "published_at": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "SK 海力士拟加速韩国光州芯片集群建设，永仁项目提前12年",
+          "summary": "SK 集团表示，将在需求持续快速增长的判断下尽快推进韩国光州半导体集群，并可能与永仁项目并行建设。永仁集群四座晶圆厂的完成目标已由2045年提前至2033年；三星电子和SK海力士还计划分别投入约400万亿韩元，在光州各建两座晶圆厂。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/sk-chairman-chey-says-chip-demand-keep-growing-fast-2026-10-09/",
+          "published_at": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

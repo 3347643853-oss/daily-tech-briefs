@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-12",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线一端是前沿 AI 安全合作重新出现跨国协调空间，另一端是材料与纳米电子研究继续压缩结构尺度、降低能耗；与此同时，东非至海湾国家的高风险迁徙通道再发重大船难，凸显冲突、贫困与人口流动叠加形成的人道危机。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "美国转向允许前沿 AI 模型接受英国机构预发布安全测试",
+          "summary": "据路透社援引《每日电讯报》报道，特朗普政府已撤回限制 OpenAI、Anthropic 等企业向英国 AI 安全研究所提供未发布模型的要求。此举为跨国前沿模型能力与滥用风险评测恢复合作空间，也与美国新设 AI 工作组要求企业报告模型安全事件的政策相呼应。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/",
+          "published_at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "亚纳米交替 Ni/NiMoO₄ 异质结构提升高电流析氢稳定性",
+          "summary": "《Nature Communications》报道通过受限旋节分解与配体辅助原位还原，构筑交替排列的 Ni/NiMoO₄ 亚纳米异质结构。高度密集的界面可调节反应活性，材料在析氢中表现出耐久的高电流电解能力，为精确制造亚纳米界面催化剂提供新路线。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78575-w",
+          "published_at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "吉布提至也门移民船倾覆，至少 139 人死亡",
+          "summary": "联合国国际移民组织称，一艘载有 305 人、从吉布提前往也门的船只于 10 月 8 日至 9 日夜间倾覆，至少 139 人死亡、约 84 人失踪，仅约 82 人获救。事故再次暴露“东部路线”上的海难、人口贩运与任意拘押风险，搜救和幸存者救助仍在继续。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/africa/109-migrants-including-15-children-dead-after-boat-djibouti-yemen-capsizes-un-2026-10-11/",
+          "published_at": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "14 单元量子点 D 锁存器缩小纳米存储面积与延迟",
+          "summary": "《Scientific Reports》提出基于多数反馈的量子点元胞自动机 D 锁存器，并扩展为带置位、复位控制的单比特 SRAM。仿真显示，14 单元设计较可比方案面积减少 12.5%、延迟降低 33.3%；扩展结构峰值能耗约降 22.7%，但尚需实物制造与缺陷容错验证。",
+          "source_name": "Scientific Reports",
+          "source_url": "https://www.nature.com/articles/s41598-026-74675-1",
+          "published_at": "2026-10-11"
+        }
+      ]
+    }
+  ]
+}

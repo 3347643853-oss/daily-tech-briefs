@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-13",
+  "title": "每日科技与要闻简报",
+  "overview": "今日值得关注的是，通用大模型在材料结构预测中的能力边界被更系统地量化，提示科研 AI 仍需结合几何专用架构；化学研究则以小型四肽连接底物识别和光能转移。与此同时，联网冷链设备暴露出物理基础设施的网络风险，低温工艺也为后 CMOS 纳米器件集成开辟新路径。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "大模型预测材料性质暴露“几何盲区”，70B 参数仍难弥补",
+          "summary": "《Nature Computational Science》利用 MatText 基准系统测试大模型从晶体文本表示预测形成能和弹性模量的能力。结果显示，模型擅长学习元素类别规律，却难以掌握原子坐标信息；即使扩展至700亿参数、200万结构或更换文本表示，这一“几何盲区”仍存在。",
+          "source_name": "Nature Computational Science",
+          "source_url": "https://www.nature.com/articles/s43588-026-01045-2",
+          "published_at": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "低于750 Da的四肽实现高选择性可见光不对称催化",
+          "summary": "《Nature Synthesis》构建含N端底物识别位点和C端噻吨酮光敏位点的四肽，在425纳米可见光下完成丙二烯去消旋化及不对称[2+2]环加成。代表性去消旋产物定量生成并达96:4对映比，环加成对映比最高99:1，兼具小分子催化剂的轻量与肽结构的可调性。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01173-7",
+          "published_at": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "黑客远程升温法国超市冷柜，引发火灾与大规模食品报废",
+          "summary": "黑客攻击法国多家零售商的联网制冷系统，将部分冰柜温度升至50℃并持续约六小时，造成食品变质和局部火灾；Intermarché约150家门店、家乐福80家门店受影响。涉事设备使用过时固件，法国网络安全机构已介入，事件凸显物联网漏洞可直接冲击食品供应链。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+          "published_at": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "180℃低热预算工艺制造50纳米悬空硅纳米线",
+          "summary": "《Microsystems & Nanoengineering》提出无需高温炉的悬空硅纳米线工艺，以铬侧壁保护结合深反应离子刻蚀，最高温度仅180℃。器件线宽低至50纳米、长宽比达100，并实现结型场效应晶体管和亚10纳瓦氢气传感，适合后CMOS集成。",
+          "source_name": "Microsystems & Nanoengineering",
+          "source_url": "https://www.nature.com/articles/s41378-026-01467-y",
+          "published_at": "2026-10-12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-15",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是智能体开始从通用检索转向“技能库＋工具执行”的专业推理，临床长病历研究同时展示了性能增益与安全边界；催化领域以位点选择性钝化显著提升异相氢甲酰化区域选择性。与此同时，未成年人社交媒体监管趋严，跨国资本继续重塑美国半导体制造版图。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "技能库引导智能体综合25年病历，复杂任务优势达11.2个百分点",
+          "summary": "《npj Precision Oncology》在811名多发性骨髓瘤患者、25年纵向病历上测试技能库引导智能体。其与专家结论一致率达80.1%，高于迭代RAG的75.7%；对最复杂任务优势扩大至11.2个百分点，但系统错误中临床严重错误占比较高，仍需人工复核。",
+          "source_name": "npj Precision Oncology",
+          "source_url": "https://www.nature.com/articles/s41698-026-01733-2",
+          "published_at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "沸石限域Rh³⁺实现高区域选择性异相氢甲酰化",
+          "summary": "《Nature》将亚纳米Rh₂O₃簇限域于MFI沸石，反应中形成孤立Rh³⁺与Rh⁺位点，再以含氮分子优先钝化易促异构化的Rh⁺。体系在1-癸烯99.8%转化率下实现96%十一醛选择性，直链/支链比达817，为无膦配体异相氢甲酰化提供新路径。",
+          "source_name": "Nature",
+          "source_url": "https://www.nature.com/articles/s41586-026-11136-9",
+          "published_at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "美国法院允许佛州执行14岁以下儿童社交媒体禁令",
+          "summary": "美国第十一巡回上诉法院允许佛州执行H.B.3，禁止14岁以下儿童在含自动播放、无限滚动等“成瘾性”功能的平台创建账户。法院认为规定针对产品功能而非言论内容，不违反第一修正案；行业团体仍考虑后续诉讼，青少年在线权利与平台责任争议将继续。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/government/florida-can-enforce-state-law-barring-young-kids-social-media-appeals-court-2026-10-14/",
+          "published_at": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "日本拟投210亿美元在纽约建设两座GlobalFoundries晶圆厂",
+          "summary": "日本拟投入约210亿美元，在纽约州建设最多两座由GlobalFoundries运营的晶圆厂。首厂计划今年开工、2029年投产，满产后每年新增约90万片300毫米晶圆并创造逾千个岗位；部分既有补贴还将转向硅光子、硅锗材料和先进封装，首批客户包括苹果与瑞萨。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/",
+          "published_at": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "title": "每日科技与要闻简报",
-  "overview": "今日值得关注的共同主线，是智能体与先进制造都在从能力展示转向规则与关键工艺控制：AI开始面对代理谈判的授权和责任边界，光伏产业则把竞争延伸到核心制造技术；同时，废塑料高值转化研究再次显示纳米尺度结构控制的重要性。",
+  "overview": "今日科技主线是研发和产业竞争同时走向系统化：前沿模型公司用巨额融资支撑算力扩张，化学回收探索更温和的塑料高值转化，数字孪生与机器学习则开始直接闭环优化反应器。哥伦比亚矿难再次暴露非正规采矿缺乏安全基础设施的代价。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Anthropic向律师取经，为AI智能体谈判建立规则",
-          "summary": "《金融时报》报道，Anthropic正向律师事务所咨询如何为代表用户谈判的AI智能体设定规则，场景包括商品议价、客服纠纷和薪资协商。随着智能体开始彼此交易，授权边界、公平义务、何时请求人工确认及交易责任将成为产品落地的关键制度问题。",
-          "source_name": "Financial Times",
-          "source_url": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9",
-          "published_at": "2026-10-18"
+          "title": "OpenAI加速300亿美元融资，拟抢在Anthropic上市前完成",
+          "summary": "路透社援引知情人士称，OpenAI正加速约300亿美元融资，目标在Anthropic预计11月中旬上市前锁定投资者，估值或超过1.4万亿美元。其融资需求既来自模型业务扩张，也用于支撑高额算力和数据中心承诺，显示前沿模型竞争已延伸至资本、基础设施与上市节奏。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/",
+          "published_at": "2026-10-19"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "钌纳米颗粒尺寸调控助力废PET定向转化为高值胺",
-          "summary": "《自然·通讯》研究发现，调控钌纳米颗粒尺寸可改变PET塑料还原胺化路径：约1.3纳米团簇倾向过度加氢，约4.6纳米颗粒则易过度脱氧。通过尺寸工程可提高对对苯二甲胺的选择性，为废PET向高价值含氮化学品升级提供催化设计依据。",
+          "title": "碱金属氢化物在温和条件下将聚苯乙烯转化为烷基苯",
+          "summary": "《Nature Communications》报道，碱金属氢化物可在较低温度和氢压下催化聚苯乙烯选择性氢解，生成具有利用价值的烷基苯。该路线以结构简单的无机氢化物实现塑料碳链断裂，为难回收聚苯乙烯的化学升级提供更温和的反应路径与催化机制线索。",
           "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-78873-3",
-          "published_at": "2026-10-17"
+          "source_url": "https://www.nature.com/articles/s41467-026-78624-4",
+          "published_at": "2026-10-19"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "加拿大军事基地训练火灾致4人死亡、39人住院",
-          "summary": "加拿大阿尔伯塔省温赖特军事基地在实弹训练期间发生草原火灾，强风推动火势快速蔓延，造成4名军人死亡、39人住院，其中19人伤势危重。加军和皇家骑警正调查起火原因，政府已排除外部干预；事件成为加拿大近年最严重的和平时期军事训练事故之一。",
+          "title": "哥伦比亚非法金矿坍塌致14人死亡、7人受伤",
+          "summary": "哥伦比亚西南部纳里尼奥省一处无证露天金矿坍塌，造成14人死亡、7人受伤，搜救工作已结束。这是该省不足三个月内第二起造成多人死亡的矿难；当地政府要求加快小型与非法矿业正规化，以改善缺乏安全设施和监管的作业条件。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/americas/fire-canadian-military-base-kills-seven-cbc-reports-2026-10-18/",
-          "published_at": "2026-10-18"
+          "source_url": "https://www.reuters.com/world/americas/14-dead-7-injured-colombia-illegal-gold-mine-collapse-2026-10-19/",
+          "published_at": "2026-10-19"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "中国拟管制12项太阳能制造技术出口",
-          "summary": "中国商务部拟将12项太阳能制造技术纳入出口管制目录，涉及薄硅片、钙钛矿—硅叠层电池、流化床多晶硅以及TOPCon、HJT、XBC等工艺。若落地，相关技术跨境转移将需更严格审批，可能影响海外扩产计划，并凸显光伏竞争正从产能延伸到关键工艺与设备知识产权。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/",
-          "published_at": "2026-10-18"
+          "title": "机器学习与数字孪生实现光反应器闭环自主设计",
+          "summary": "《Nature Communications》将光线追踪数字孪生与多目标贝叶斯优化结合，构建光反应器闭环设计流程。系统可在虚拟空间筛选大量几何方案，同时优化光子捕获率和照射均匀性，仅制造最有希望的候选进行验证，从而减少试错并量化结构、光场与反应性能之间的关系。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78785-2",
+          "published_at": "2026-10-19"
         }
       ]
     }

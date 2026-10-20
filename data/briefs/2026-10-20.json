@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "title": "每日科技与要闻简报",
+  "overview": "今日科技主线是研发和产业竞争同时走向系统化：前沿模型公司用巨额融资支撑算力扩张，化学回收探索更温和的塑料高值转化，数字孪生与机器学习则开始直接闭环优化反应器。哥伦比亚矿难再次暴露非正规采矿缺乏安全基础设施的代价。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "OpenAI加速300亿美元融资，拟抢在Anthropic上市前完成",
+          "summary": "路透社援引知情人士称，OpenAI正加速约300亿美元融资，目标在Anthropic预计11月中旬上市前锁定投资者，估值或超过1.4万亿美元。其融资需求既来自模型业务扩张，也用于支撑高额算力和数据中心承诺，显示前沿模型竞争已延伸至资本、基础设施与上市节奏。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "碱金属氢化物在温和条件下将聚苯乙烯转化为烷基苯",
+          "summary": "《Nature Communications》报道，碱金属氢化物可在较低温度和氢压下催化聚苯乙烯选择性氢解，生成具有利用价值的烷基苯。该路线以结构简单的无机氢化物实现塑料碳链断裂，为难回收聚苯乙烯的化学升级提供更温和的反应路径与催化机制线索。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78624-4",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "哥伦比亚非法金矿坍塌致14人死亡、7人受伤",
+          "summary": "哥伦比亚西南部纳里尼奥省一处无证露天金矿坍塌，造成14人死亡、7人受伤，搜救工作已结束。这是该省不足三个月内第二起造成多人死亡的矿难；当地政府要求加快小型与非法矿业正规化，以改善缺乏安全设施和监管的作业条件。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/americas/14-dead-7-injured-colombia-illegal-gold-mine-collapse-2026-10-19/",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "机器学习与数字孪生实现光反应器闭环自主设计",
+          "summary": "《Nature Communications》将光线追踪数字孪生与多目标贝叶斯优化结合，构建光反应器闭环设计流程。系统可在虚拟空间筛选大量几何方案，同时优化光子捕获率和照射均匀性，仅制造最有希望的候选进行验证，从而减少试错并量化结构、光场与反应性能之间的关系。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-78785-2",
+          "published_at": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

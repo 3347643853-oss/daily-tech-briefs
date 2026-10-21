@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-21",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是AI基础设施的两端同步推进：上层开始建立军事AI的国际治理与行业行为框架，下层则加快低功耗光电融合芯粒量产。材料研究以超分子预组织突破聚合物连接的熵障碍，而苏丹战争外溢造成的重大平民伤亡继续加深区域人道危机。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "联合国将建立首个军事AI国际论坛",
+          "summary": "联合国裁军研究所将启动首个专门讨论军事AI的国际论坛，覆盖预警、侦察、核决策及武装团体滥用等场景。机构还计划与防务科技企业、软件开发商和投资者制定自愿行业准则，核心是确保系统保持可预测、符合国际法，并在人类判断空间持续收窄前建立护栏。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/un-artificial-intelligence-military-china-us-e0a3c48c91a9de89cab72609d185f658",
+          "published_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "氢键预组织实现螺旋聚合物非热化学连接",
+          "summary": "《Nature Nanotechnology》提出由折叠驱动的超分子化学连接：氢键先使聚合物骨架刚化并将反应端基预组织，随后以碱催化硫醇盐—二硫键动态交换完成共价缩聚。该策略无需热激活，可延长合成螺旋聚合物，并形成层级球状结构和热响应缠结。",
+          "source_name": "Nature Nanotechnology",
+          "source_url": "https://www.nature.com/articles/s41565-026-02310-1",
+          "published_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "阿卜耶伊市场遭无人机袭击，死亡人数升至153人",
+          "summary": "苏丹与南苏丹争议地区阿卜耶伊一座市场遭无人机袭击并引燃燃料库，当地官员称死亡人数升至153人，约8000人流离失所，火势仍妨碍遗体搜寻。南苏丹指责苏丹军方实施袭击，但路透社尚无法独立核实；联合国已谴责近期连续无人机攻击。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/africa/drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says-2026-10-20/",
+          "published_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "日本四家公司推进光电融合芯粒量产技术",
+          "summary": "NTT创新设备、日本半导体、古河电工与新光电气的联合项目获日本NEDO支持，将建设光电融合芯粒试验产线，覆盖硅光子、化合物光器件、测试及先进封装。目标是把制造效率提升至研发阶段的十倍以上，为AI数据中心提供高速、低功耗的芯片间互连。",
+          "source_name": "Furukawa Electric",
+          "source_url": "https://www.furukawaelectric.com/en/release/2026/comp_20261020.html",
+          "published_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

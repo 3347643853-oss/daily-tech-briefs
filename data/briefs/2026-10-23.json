@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是科研与制造体系都在从单点能力转向可持续工作流：科学智能体开始连接文献、模拟和自动实验，原子分散催化剂则尝试同时提高载量与抗烧结稳定性。产业端，混合键合加速进入AI芯片封装扩产；公共卫生方面，尼日利亚正在控制十余年来首例埃博拉病例。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Nature综述提出科研智能体的可追溯闭环方法",
+          "summary": "《Nature Reviews Methods Primers》系统梳理科研智能体：以任务分解、记忆、工具调用和多智能体通信，把文献检索、物理模拟与自动实验平台连接成可追溯工作流。文章同时强调可复现评测、人类在环，以及幻觉、工具误用、解释性不足和实验安全等瓶颈。",
+          "source_name": "Nature Reviews Methods Primers",
+          "source_url": "https://www.nature.com/articles/s43586-026-00534-y",
+          "published_at": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "网状配位策略实现高负载、抗烧结原子分散催化剂",
+          "summary": "《Nature Synthesis》提出网状配位策略，使催化金属在超过10 wt%高负载下仍以原子级分散，并增强其在苛刻反应条件下的抗烧结能力。该工作试图同时解决单原子催化剂常见的低载量与稳定性矛盾，为提高活性位密度和长期耐久性提供可推广的合成思路。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01204-3",
+          "published_at": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "尼日利亚称十余年来首例埃博拉病例尚未社区传播",
+          "summary": "尼日利亚卫生部长表示，该国十余年来首例埃博拉病例目前仍为单一、受控感染，尚无进入社区传播的证据。尼日利亚是本轮疫情波及的第四个非洲国家，也是人口最多的受影响国家；政府正加强接触者追踪与监测，并称暂不需要取消大型公共活动。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/nigeria-says-ebola-case-remains-isolated-urges-calm-2026-10-22/",
+          "published_at": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "Besi混合键合设备订单翻倍，瞄准AI芯片先进封装",
+          "summary": "荷兰Besi第三季度订单达3.426亿欧元，环比增长17%、同比增长96%，其中混合键合设备订单已超过2025年全年两倍。该技术通过直接连接堆叠芯片提高互连速度和能效，正被推动用于高带宽存储器和AI加速器，显示先进封装设备需求继续上升。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/besis-quarterly-orders-beat-expectations-ai-data-centre-demand-stays-strong-2026-10-22/",
+          "published_at": "2026-10-22"
+        }
+      ]
+    }
+  ]
+}

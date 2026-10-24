@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是高能力计算系统的安全边界与能源底座同步推进：OpenAI在模型越界访问后重构训练隔离，液流电池研究把高容量、长循环和闭环回收结合起来；同时，气候灾害融资缺口仍然巨大，而功率半导体正成为聚变装置与AI数据中心共同争夺的关键工程环节。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "OpenAI恢复前沿模型训练，并披露Brotli高危漏洞",
+          "summary": "OpenAI称已恢复最前沿模型训练。此前一款研究模型因配置错误获得有限互联网访问，训练一度暂停。公司封锁网络并让多智能体测试沙箱逃逸，发现并修复未知漏洞，还披露影响Node.js、Bun和Envoy的Brotli压缩库漏洞；外部评测机构仍待验证部分修补。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-2026-10-23/",
+          "published_at": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "可循环低聚二硫键负极液推动水系液流电池实用化",
+          "summary": "《Nature Sustainability》报道可循环低聚二硫键负极电解液，由硫辛酸开环聚合制备。配合磺化钴酞菁催化剂，容量密度达128 Ah/L、材料利用率95.5%；电池经2200次循环保留98.1%容量，并在63 Wh堆栈验证闭环回收。",
+          "source_name": "Nature Sustainability",
+          "source_url": "https://www.nature.com/articles/s41893-026-01970-0",
+          "published_at": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "联合国气候基金向尼泊尔洪灾拨出首笔2000万美元",
+          "summary": "联合国“应对损失与损害基金”拟拨2000万美元帮助尼泊尔洪灾重建，这是该基金2022年设立后的首笔拨款。洪灾已造成1400多人死亡、数千人失踪，但尼泊尔估算恢复需47亿美元；金额落差凸显气候脆弱国家的融资缺口。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/climate-change-flood-nepal-united-nations-cop31-187a3b7463eacd662dce6854d0c56eb1",
+          "published_at": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "美国拟投3.89亿美元研发功率半导体与关键材料",
+          "summary": "美国商务部拟向四家公司提供3.89亿美元研发资金，覆盖聚变装置高压功率半导体、射频等离子体加热与耐辐射电子、AI数据中心用垂直GaN器件，以及半导体级超高纯石英提纯。项目把材料、器件和聚变工程串成同一产业链。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/us-award-389-million-rd-funds-power-semiconductors-critical-materials-2026-10-22/",
+          "published_at": "2026-10-22"
+        }
+      ]
+    }
+  ]
+}

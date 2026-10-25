@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是高能力计算系统的安全边界与能源底座同步推进：OpenAI在模型越界访问后重构训练隔离，液流电池研究把高容量、长循环和闭环回收结合起来；同时，气候灾害融资缺口仍然巨大，而功率半导体正成为聚变装置与AI数据中心共同争夺的关键工程环节。",
+  "overview": "今日主线是开放模型、安全治理和实体制造之间的边界同步收紧：月之暗面主动压低模型的网络攻击能力，催化研究用相邻异电荷位点拆解活性与选择性的固有权衡；法国生活成本抗议继续扩大，而芯片工厂自动化设备的监管豁免暴露出制造回流与供应链现实之间的张力。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "OpenAI恢复前沿模型训练，并披露Brotli高危漏洞",
-          "summary": "OpenAI称已恢复最前沿模型训练。此前一款研究模型因配置错误获得有限互联网访问，训练一度暂停。公司封锁网络并让多智能体测试沙箱逃逸，发现并修复未知漏洞，还披露影响Node.js、Bun和Envoy的Brotli压缩库漏洞；外部评测机构仍待验证部分修补。",
+          "title": "月之暗面主动削弱Kimi K3.1 Pro网络攻击能力",
+          "summary": "月之暗面发布Kimi K3.1 Pro，并主动削弱开放权重模型的网络攻击能力：从训练语料和强化学习环境移除网络安全相关数据，同时保留通用编程能力。内部评测中，漏洞发现与利用得分由未过滤版90.5%降至81.0%；模型权重计划11月4日开放，但结果尚未经独立验证。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-2026-10-23/",
-          "published_at": "2026-10-23"
+          "source_url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/",
+          "published_at": "2026-10-24"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "可循环低聚二硫键负极液推动水系液流电池实用化",
-          "summary": "《Nature Sustainability》报道可循环低聚二硫键负极电解液，由硫辛酸开环聚合制备。配合磺化钴酞菁催化剂，容量密度达128 Ah/L、材料利用率95.5%；电池经2200次循环保留98.1%容量，并在63 Wh堆栈验证闭环回收。",
-          "source_name": "Nature Sustainability",
-          "source_url": "https://www.nature.com/articles/s41893-026-01970-0",
-          "published_at": "2026-10-23"
+          "title": "PtFe异电荷位点突破丙烷脱氢活性—选择性权衡",
+          "summary": "《Nature Communications》报道二氧化硅负载亚纳米PtFe团簇，通过Pt–Fe合金化和Pt–O–Fe界面同时构造富电子与缺电子Pt位点。前者促进C–H断裂，后者帮助丙烯脱附；在0.1 wt%超低Pt载量下，600℃丙烷转化率接近平衡值约60%，丙烯选择性约99%。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-79089-1",
+          "published_at": "2026-10-24"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "联合国气候基金向尼泊尔洪灾拨出首笔2000万美元",
-          "summary": "联合国“应对损失与损害基金”拟拨2000万美元帮助尼泊尔洪灾重建，这是该基金2022年设立后的首笔拨款。洪灾已造成1400多人死亡、数千人失踪，但尼泊尔估算恢复需47亿美元；金额落差凸显气候脆弱国家的融资缺口。",
+          "title": "法国逾40万人示威，巴黎等地再现警民冲突",
+          "summary": "法国全国超过40万人就学校经费不足和生活成本上涨示威，内政部称巴黎约11万人参加，全国近1000人被捕。多数游行和平，但巴黎终点及里昂、马赛等地出现冲突、纵火和催泪瓦斯；这场持续一个多月的抗议正考验马克龙任期最后阶段的治理能力。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/climate-change-flood-nepal-united-nations-cop31-187a3b7463eacd662dce6854d0c56eb1",
-          "published_at": "2026-10-23"
+          "source_url": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+          "published_at": "2026-10-24"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "美国拟投3.89亿美元研发功率半导体与关键材料",
-          "summary": "美国商务部拟向四家公司提供3.89亿美元研发资金，覆盖聚变装置高压功率半导体、射频等离子体加热与耐辐射电子、AI数据中心用垂直GaN器件，以及半导体级超高纯石英提纯。项目把材料、器件和聚变工程串成同一产业链。",
+          "title": "Intel获一年豁免，可继续维护外国制造晶圆厂搬运机器人",
+          "summary": "美国FCC向Intel授予一年豁免，允许其继续维护美国晶圆厂现有的部分外国制造自动导引车。Intel称这些车辆用于厂内搬运材料，已运行二十多年，尚无满足要求的国产替代品，强制更换可能耗时数年并扰乱先进芯片生产；豁免不允许以外国部件替换美国部件。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/technology/us-award-389-million-rd-funds-power-semiconductors-critical-materials-2026-10-22/",
-          "published_at": "2026-10-22"
+          "source_url": "https://www.reuters.com/technology/fcc-grants-intel-waiver-foreign-made-robotic-devices-2026-10-22/",
+          "published_at": "2026-10-23"
         }
       ]
     }

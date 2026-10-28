@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "title": "每日科技与要闻简报",
+  "overview": "今日重点是长期治理、催化耐久性与边缘智能硬件同时推进：Anthropic试图用特殊股权和公益信托约束未来控制权；氨电解制氢通过催化剂原位再生跨越千小时寿命门槛；III族氮化物器件则把感知、存储与计算压缩到同一硬件。加勒比暴雨造成新的人员伤亡和住房损失。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Anthropic用公益信托和特殊表决权约束未来控制权",
+          "summary": "Anthropic在IPO文件中披露长期治理设计：七名联合创始人通过超级投票权掌握部分事项的50.1%表决权，独立的长期公益信托可选举董事会多数席位。创始人退出后，董事将分三组、任期三年，以降低短期股东压力和恶意收购风险，但该结构也会削弱普通股东影响力。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/technology/who-controls-powerful-ai-anthropic-has-plan-long-after-its-leaders-depart-2026-10-27/",
+          "published_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "可再生Pt催化剂让氨电解制氢稳定运行逾2000小时",
+          "summary": "《Nature Synthesis》报道，Pt/Fe-NC催化剂利用载体向铂转移电子，抑制铂氧化，并通过水辅助途径将毒化位点上的氮重新氢化为可反应中间体。结合脉冲电解、间歇酸洗和补充氨，体系在10毫安每平方厘米下连续制氢超过2000小时，在工业级电流密度下运行500小时。",
+          "source_name": "Nature Synthesis",
+          "source_url": "https://www.nature.com/articles/s44160-026-01201-6",
+          "published_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "海地与多米尼加共和国遭洪水，至少4人死亡",
+          "summary": "海地和多米尼加共和国受加勒比北部低压系统带来的暴雨影响，发生洪水与山体滑坡。海地西南部至少4人死亡、2人失踪，超过3200户家庭受灾，数百所房屋被毁；邻国至少30个社区交通中断、100多所住宅进水。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/rains-flooding-haiti-dominican-republic-weather-killed-012fa128cea57defc8d2ce7735ec1e9c",
+          "published_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "III族氮化物器件实现感知、存储与计算一体化",
+          "summary": "《Nature Materials》提出基于III族氮化物异质结构的传感器—忆阻器，利用界面极化使光生载流子空间分离，兼顾感知、存储和计算。器件响应度达10⁶安培每瓦、开关比约10⁵，并可切换为高速探测模式，在300℃下仍保持性能，且兼容规模化氮化物制造和CMOS集成。",
+          "source_name": "Nature Materials",
+          "source_url": "https://www.nature.com/articles/s41563-026-02780-7",
+          "published_at": "2026-10-27"
+        }
+      ]
+    }
+  ]
+}

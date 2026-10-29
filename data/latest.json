@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "每日科技与要闻简报",
-  "overview": "今日重点是长期治理、催化耐久性与边缘智能硬件同时推进：Anthropic试图用特殊股权和公益信托约束未来控制权；氨电解制氢通过催化剂原位再生跨越千小时寿命门槛；III族氮化物器件则把感知、存储与计算压缩到同一硬件。加勒比暴雨造成新的人员伤亡和住房损失。",
+  "overview": "今日主线是AI算力供应链继续多元化，并向成熟制程、硅光子和先进封装扩散；化工与制造的交叉点则出现可在中性条件下工作的芬顿催化抛光技术。社会层面，葡萄牙住房成本持续快于收入增长，正推动青年群体扩大抗议。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Anthropic用公益信托和特殊表决权约束未来控制权",
-          "summary": "Anthropic在IPO文件中披露长期治理设计：七名联合创始人通过超级投票权掌握部分事项的50.1%表决权，独立的长期公益信托可选举董事会多数席位。创始人退出后，董事将分三组、任期三年，以降低短期股东压力和恶意收购风险，但该结构也会削弱普通股东影响力。",
+          "title": "OpenAI据报拟采购Google TPU，进一步分散算力来源",
+          "summary": "路透社援引《The Information》报道称，OpenAI计划采购Google的TPU人工智能芯片，但交易金额和时间表尚未披露，双方也未确认。若落地，这将使OpenAI在英伟达GPU、自研Broadcom芯片之外增加第三条算力来源，并进一步深化其与搜索及模型竞争对手Google的商业合作。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/technology/who-controls-powerful-ai-anthropic-has-plan-long-after-its-leaders-depart-2026-10-27/",
-          "published_at": "2026-10-27"
+          "source_url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+          "published_at": "2026-10-28"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "可再生Pt催化剂让氨电解制氢稳定运行逾2000小时",
-          "summary": "《Nature Synthesis》报道，Pt/Fe-NC催化剂利用载体向铂转移电子，抑制铂氧化，并通过水辅助途径将毒化位点上的氮重新氢化为可反应中间体。结合脉冲电解、间歇酸洗和补充氨，体系在10毫安每平方厘米下连续制氢超过2000小时，在工业级电流密度下运行500小时。",
-          "source_name": "Nature Synthesis",
-          "source_url": "https://www.nature.com/articles/s44160-026-01201-6",
-          "published_at": "2026-10-27"
+          "title": "不对称铜位点使中性芬顿反应用于碳化硅原子级加工",
+          "summary": "《Nature Communications》报道，研究人员在Cu/ZIF-8金属有机框架中构造不对称Nₓ–Cu–Oᵧ位点，通过铜d轨道分裂加速Cu(II)/Cu(I)氧化还原循环，使芬顿反应可在中性条件下进行。体系提高4H-SiC原子级抛光效率，并减少酸性工艺与金属离子污染。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-79001-x",
+          "published_at": "2026-10-28"
         }
       ]
     },
@@ -31,10 +31,10 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "海地与多米尼加共和国遭洪水，至少4人死亡",
-          "summary": "海地和多米尼加共和国受加勒比北部低压系统带来的暴雨影响，发生洪水与山体滑坡。海地西南部至少4人死亡、2人失踪，超过3200户家庭受灾，数百所房屋被毁；邻国至少30个社区交通中断、100多所住宅进水。",
+          "title": "葡萄牙住房成本十年上涨147%，数千青年在议会外抗议",
+          "summary": "数千名以青年为主的葡萄牙民众在里斯本议会外抗议住房危机。当地一居室月租普遍约1500欧元，已高于920欧元的最低月薪；葡萄牙住房成本在2015至2025年上涨147%，政府虽承诺建设14.5万套住房并限制短租，但承认措施难以迅速见效。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/rains-flooding-haiti-dominican-republic-weather-killed-012fa128cea57defc8d2ce7735ec1e9c",
+          "source_url": "https://apnews.com/article/03f26f4b351d6557fd6320683ec324de",
           "published_at": "2026-10-27"
         }
       ]
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "III族氮化物器件实现感知、存储与计算一体化",
-          "summary": "《Nature Materials》提出基于III族氮化物异质结构的传感器—忆阻器，利用界面极化使光生载流子空间分离，兼顾感知、存储和计算。器件响应度达10⁶安培每瓦、开关比约10⁵，并可切换为高速探测模式，在300℃下仍保持性能，且兼容规模化氮化物制造和CMOS集成。",
-          "source_name": "Nature Materials",
-          "source_url": "https://www.nature.com/articles/s41563-026-02780-7",
-          "published_at": "2026-10-27"
+          "title": "联电批准新增32亿美元扩产，布局硅光子与先进封装",
+          "summary": "台湾联电董事会批准约32亿美元新增资本支出，用于扩大成熟制程产能，并正与供应商协商加快进度。公司预计2027年综合平均售价同比提高10%，未来三年AI相关收入占比将升至25%；硅光子和先进封装被列为新增长引擎，反映AI需求正外溢至成熟节点与封装环节。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/taiwans-umc-approves-additional-32-billion-capacity-expansion-2026-10-28/",
+          "published_at": "2026-10-28"
         }
       ]
     }

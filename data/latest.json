@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是AI算力供应链继续多元化，并向成熟制程、硅光子和先进封装扩散；化工与制造的交叉点则出现可在中性条件下工作的芬顿催化抛光技术。社会层面，葡萄牙住房成本持续快于收入增长，正推动青年群体扩大抗议。",
+  "overview": "今日重点是把高能力系统从原则推进到可验证工程：OpenAI重新整理模型行为规范，强调意图、透明和人类监督；材料研究借助框架去对称化保留开放金属位点，提高气体分离效率。与此同时，中东航运与人道风险升高，Intel则在产能受扰的同时继续压低18A制程成本。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "OpenAI据报拟采购Google TPU，进一步分散算力来源",
-          "summary": "路透社援引《The Information》报道称，OpenAI计划采购Google的TPU人工智能芯片，但交易金额和时间表尚未披露，双方也未确认。若落地，这将使OpenAI在英伟达GPU、自研Broadcom芯片之外增加第三条算力来源，并进一步深化其与搜索及模型竞争对手Google的商业合作。",
+          "title": "OpenAI更新模型规范，以人类意图统领五项核心价值",
+          "summary": "OpenAI重组公开的Model Spec，将忠实理解人类意图置于基础位置，并列出减少伤害、诚实透明、维护人类自主和关怀等五项价值。公司承认现有模型尚未完全体现新版规范，正探索新的训练方法，使模型在陌生情境中运用这些原则并接受人类监督。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
-          "published_at": "2026-10-28"
+          "source_url": "https://www.reuters.com/business/openai-says-human-intent-center-updated-ai-model-guidelines-2026-10-29/",
+          "published_at": "2026-10-29"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "不对称铜位点使中性芬顿反应用于碳化硅原子级加工",
-          "summary": "《Nature Communications》报道，研究人员在Cu/ZIF-8金属有机框架中构造不对称Nₓ–Cu–Oᵧ位点，通过铜d轨道分裂加速Cu(II)/Cu(I)氧化还原循环，使芬顿反应可在中性条件下进行。体系提高4H-SiC原子级抛光效率，并减少酸性工艺与金属离子污染。",
+          "title": "框架去对称化开辟MOF部分孔道分区新机制",
+          "summary": "《Nature Communications》通过低对称配体使acs网络产生结构畸变，让分区剂只占部分位点，形成part-pacs结构并保留开放金属位点。其乙炔/二氧化碳分离生产率达1.92摩尔每千克，接近完全分区对照的两倍，同时保持较高乙炔容量。",
           "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-79001-x",
-          "published_at": "2026-10-28"
+          "source_url": "https://www.nature.com/articles/s41467-026-79214-0",
+          "published_at": "2026-10-29"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "葡萄牙住房成本十年上涨147%，数千青年在议会外抗议",
-          "summary": "数千名以青年为主的葡萄牙民众在里斯本议会外抗议住房危机。当地一居室月租普遍约1500欧元，已高于920欧元的最低月薪；葡萄牙住房成本在2015至2025年上涨147%，政府虽承诺建设14.5万套住房并限制短租，但承认措施难以迅速见效。",
+          "title": "霍尔木兹海峡三艘油轮触雷起火，也门塔伊兹人道危机加深",
+          "summary": "伊朗称三艘油轮经未授权航道驶离霍尔木兹海峡时触雷起火并被弃置，船名和伤亡尚未公布，美联社无法独立核实。也门胡塞方面另称沙特空袭塔伊兹造成13人死亡；当地逾60万依赖援助者面临封锁，医院氧气接近耗尽。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/03f26f4b351d6557fd6320683ec324de",
-          "published_at": "2026-10-27"
+          "source_url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035",
+          "published_at": "2026-10-29"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "联电批准新增32亿美元扩产，布局硅光子与先进封装",
-          "summary": "台湾联电董事会批准约32亿美元新增资本支出，用于扩大成熟制程产能，并正与供应商协商加快进度。公司预计2027年综合平均售价同比提高10%，未来三年AI相关收入占比将升至25%；硅光子和先进封装被列为新增长引擎，反映AI需求正外溢至成熟节点与封装环节。",
+          "title": "Intel以色列工厂爆炸扰动服务器芯片供应，18A成本下降四成",
+          "summary": "Intel称以色列Kiryat Gat工厂爆炸停产两周，预计两个季度合计减少约6亿美元收入，并压缩面向云客户的AI服务器芯片供应；工厂正恢复爬坡。与此同时，Panther Lake所用18A制程成本较第一季度下降40%，但公司仍面临制造瓶颈和高额扩产投入。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/asia-pacific/taiwans-umc-approves-additional-32-billion-capacity-expansion-2026-10-28/",
-          "published_at": "2026-10-28"
+          "source_url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/",
+          "published_at": "2026-10-29"
         }
       ]
     }

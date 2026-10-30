@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-30",
+  "title": "每日科技与要闻简报",
+  "overview": "今日重点是把高能力系统从原则推进到可验证工程：OpenAI重新整理模型行为规范，强调意图、透明和人类监督；材料研究借助框架去对称化保留开放金属位点，提高气体分离效率。与此同时，中东航运与人道风险升高，Intel则在产能受扰的同时继续压低18A制程成本。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "OpenAI更新模型规范，以人类意图统领五项核心价值",
+          "summary": "OpenAI重组公开的Model Spec，将忠实理解人类意图置于基础位置，并列出减少伤害、诚实透明、维护人类自主和关怀等五项价值。公司承认现有模型尚未完全体现新版规范，正探索新的训练方法，使模型在陌生情境中运用这些原则并接受人类监督。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/openai-says-human-intent-center-updated-ai-model-guidelines-2026-10-29/",
+          "published_at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "框架去对称化开辟MOF部分孔道分区新机制",
+          "summary": "《Nature Communications》通过低对称配体使acs网络产生结构畸变，让分区剂只占部分位点，形成part-pacs结构并保留开放金属位点。其乙炔/二氧化碳分离生产率达1.92摩尔每千克，接近完全分区对照的两倍，同时保持较高乙炔容量。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-79214-0",
+          "published_at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "霍尔木兹海峡三艘油轮触雷起火，也门塔伊兹人道危机加深",
+          "summary": "伊朗称三艘油轮经未授权航道驶离霍尔木兹海峡时触雷起火并被弃置，船名和伤亡尚未公布，美联社无法独立核实。也门胡塞方面另称沙特空袭塔伊兹造成13人死亡；当地逾60万依赖援助者面临封锁，医院氧气接近耗尽。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035",
+          "published_at": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "Intel以色列工厂爆炸扰动服务器芯片供应，18A成本下降四成",
+          "summary": "Intel称以色列Kiryat Gat工厂爆炸停产两周，预计两个季度合计减少约6亿美元收入，并压缩面向云客户的AI服务器芯片供应；工厂正恢复爬坡。与此同时，Panther Lake所用18A制程成本较第一季度下降40%，但公司仍面临制造瓶颈和高额扩产投入。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/",
+          "published_at": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}

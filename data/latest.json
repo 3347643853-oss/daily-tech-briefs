@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "每日科技与要闻简报",
-  "overview": "今日焦点从高速扩张转向风险与韧性：OpenAI在科技股下跌和资本开支争议中下调融资目标；催化研究利用硫酸化反而生成抗硫活性铂位点。中东一边释放重启霍尔木兹海峡谈判信号，一边仍在强化军事威慑；具身智能方面，Meta据报与中国机器人企业完成首台人形机器人原型。",
+  "overview": "今日主线是实体智能、循环材料与复杂工程同步从概念走向可验证场景：中国机器人企业把竞争焦点转向跨任务学习的“机器人之脑”，赤泥催化把塑料废物同时转化为氢气和建材增强剂；佛罗里达致命空难进入调查，NASA则加速载人登月与月球基地部署。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "OpenAI据报下调融资目标，AI资本开支压力显现",
-          "summary": "路透社援引《金融时报》报道称，受科技股抛售及市场对AI巨额投入的担忧影响，OpenAI将新一轮融资目标削减100亿美元至约200亿美元，目标估值由1.4万亿美元降至1.25万亿美元。首轮交割规模可能低于目标，OpenAI及主要投资方尚未确认报道。",
+          "title": "中国机器人产业竞逐“机器人之脑”，具身智能融资激增",
+          "summary": "路透社采访多家中国机器人企业发现，行业竞争正从能跑会跳的硬件转向“机器人之脑”。今年上半年具身智能融资达935亿元，企业通过人工示教、仿真和真实工厂数据训练通用模型；但算力受限、跨场景可靠性与规模商业化仍是主要障碍。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
-          "published_at": "2026-10-31"
+          "source_url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
+          "published_at": "2026-11-01"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "硫酸化诱导动态铂位点，提升工业废气催化剂抗硫能力",
-          "summary": "《Nature Communications》报道一种反常的抗中毒机制：通常会使挥发性有机物氧化催化剂失活的二氧化硫，经硫酸化过程可触发催化剂动态活化并抽取形成单原子铂位点。这些新位点具备耐硫性，可持续维持氧化反应，为高含硫工业烟气净化提供新设计思路。",
+          "title": "赤泥催化废塑料同时制氢并增强低碳建材",
+          "summary": "浙江大学团队把废塑料热解与赤泥催化耦合，同时制得氢气和可用于碱激发建材的碳纳米管/赤泥复合物。按最佳配比，每克塑料产氢21毫摩尔、产碳纳米管262毫克；添加1%复合物使材料抗压和抗折强度分别提高33.1%和54.3%。",
           "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-79088-2",
+          "source_url": "https://www.nature.com/articles/s41467-026-79066-8",
           "published_at": "2026-10-31"
         }
       ]
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "伊朗称霍尔木兹海峡或两日内重开，同时警告将跨区域反击",
-          "summary": "伊朗最高领袖称，若遭美国或以色列攻击，将立即作出“不受地域限制”的回应，并要求更新潜在打击目标清单。与此同时，伊朗外长表示调解方已提出可在两天内全面重开霍尔木兹海峡的方案，相关外交人员正在卡塔尔磋商，显示威慑升级与谈判信号并存。",
+          "title": "佛罗里达商务机坠毁，机上9人全部遇难",
+          "summary": "美国佛罗里达州一架从得州飞往巴哈马的Learjet 60商务机在棕榈滩县居民区附近急坠并爆炸，机上9人全部遇难，地面暂未报告伤亡。飞行员事发前报告结冰、湍流和降水，FAA与NTSB已介入调查，附近约600名居民被疏散。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/mideast-news-october-31-2026-15c0556b92c8c23beb9b8854b4c124f4",
-          "published_at": "2026-10-31"
+          "source_url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39",
+          "published_at": "2026-11-01"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "Meta据报与傅利叶合作完成首台人形机器人原型",
-          "summary": "路透社转述《The Information》称，Meta已与中国机器人企业傅利叶合作制造一台人形机器人原型，并正在推进第二版。这表明Meta可能将其AI模型和感知能力进一步延伸到实体机器人平台；但报道仅援引知情人士，路透社尚无法独立核实，双方也未披露技术规格和量产计划。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/",
-          "published_at": "2026-10-31"
+          "title": "NASA加速月球基地建设，目标2028年载人登月",
+          "summary": "NASA称将以“阿波罗式”节奏推进月球基地和载人登月：2027年夏季先让Artemis III在近地轨道与SpaceX、蓝色起源着陆器演练对接，Artemis IV仍计划2028年实现载人登月；首批月球车、着陆器和实验设备将提前部署到月球南极附近。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/nasa-artemis-moon-astronauts-space-0a535368f718cb42f5b9c3378d3953c2",
+          "published_at": "2026-11-01"
         }
       ]
     }

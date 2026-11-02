@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "title": "每日科技与要闻简报",
+  "overview": "今日主线是实体智能、循环材料与复杂工程同步从概念走向可验证场景：中国机器人企业把竞争焦点转向跨任务学习的“机器人之脑”，赤泥催化把塑料废物同时转化为氢气和建材增强剂；佛罗里达致命空难进入调查，NASA则加速载人登月与月球基地部署。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "中国机器人产业竞逐“机器人之脑”，具身智能融资激增",
+          "summary": "路透社采访多家中国机器人企业发现，行业竞争正从能跑会跳的硬件转向“机器人之脑”。今年上半年具身智能融资达935亿元，企业通过人工示教、仿真和真实工厂数据训练通用模型；但算力受限、跨场景可靠性与规模商业化仍是主要障碍。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
+          "published_at": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "赤泥催化废塑料同时制氢并增强低碳建材",
+          "summary": "浙江大学团队把废塑料热解与赤泥催化耦合，同时制得氢气和可用于碱激发建材的碳纳米管/赤泥复合物。按最佳配比，每克塑料产氢21毫摩尔、产碳纳米管262毫克；添加1%复合物使材料抗压和抗折强度分别提高33.1%和54.3%。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-79066-8",
+          "published_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "佛罗里达商务机坠毁，机上9人全部遇难",
+          "summary": "美国佛罗里达州一架从得州飞往巴哈马的Learjet 60商务机在棕榈滩县居民区附近急坠并爆炸，机上9人全部遇难，地面暂未报告伤亡。飞行员事发前报告结冰、湍流和降水，FAA与NTSB已介入调查，附近约600名居民被疏散。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39",
+          "published_at": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "NASA加速月球基地建设，目标2028年载人登月",
+          "summary": "NASA称将以“阿波罗式”节奏推进月球基地和载人登月：2027年夏季先让Artemis III在近地轨道与SpaceX、蓝色起源着陆器演练对接，Artemis IV仍计划2028年实现载人登月；首批月球车、着陆器和实验设备将提前部署到月球南极附近。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/nasa-artemis-moon-astronauts-space-0a535368f718cb42f5b9c3378d3953c2",
+          "published_at": "2026-11-01"
+        }
+      ]
+    }
+  ]
+}

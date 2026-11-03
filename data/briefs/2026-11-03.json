@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-03",
+  "title": "每日科技与要闻简报",
+  "overview": "今日重点是高投入技术的风险结构与工程实现同步变得清晰：Anthropic上市文件把巨额算力承诺及其融资依赖摆上台面；电催化研究分离了驱动力和界面电场的相反影响。俄乌局势在致命袭击与重启谈判之间拉扯，增材制造则用原位组织设计实现宽温域强韧合金。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Anthropic披露近9000亿美元算力承诺，上市前融资风险受关注",
+          "summary": "Anthropic更新上市文件称，第三季度营收环比增长47%至169.6亿美元，净亏损收窄至232.9亿美元，但增速明显低于上一季度。公司同时披露与亚马逊、谷歌等合作方相关的算力承诺约8954亿美元，其中部分依赖外部融资，可能面临延期、涨价或缩水风险。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/",
+          "published_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "Nature Chemistry分离电催化驱动力与界面电场效应",
+          "summary": "《Nature Chemistry》以Pt(111)表面一氧化碳瞬态氧化为模型，结合变温电流、零总电荷电位和拉曼光谱，分离电化学驱动力与双电层电场效应。结果显示，提高驱动力会降低活化能，而增强界面电场反而提高表观活化能，说明单一过电位描述不足。",
+          "source_name": "Nature Chemistry",
+          "source_url": "https://www.nature.com/articles/s41557-026-02290-8",
+          "published_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "category": "国内外重要社会新闻",
+      "items": [
+        {
+          "title": "俄军袭击乌克兰援助中心致26人死亡，三方谈判日期确定",
+          "summary": "俄罗斯袭击乌克兰扎波罗热地区一处人道援助发放中心及邻近避难所，乌方称至少26人死亡、约20人失踪，后续无人机攻击一度阻碍救援。袭击发生在赫尔松局部人道停火结束之际；美方宣布俄乌谈判计划于11月10日至11日在阿布扎比举行。",
+          "source_name": "Associated Press",
+          "source_url": "https://apnews.com/article/russia-ukraine-cyberattacks-emergency-apps-717372f7bbf4e8a805bc918f06f9730f",
+          "published_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "category": "先进制造与工程技术",
+      "items": [
+        {
+          "title": "3D打印多主元合金无需热处理即可保持宽温域强韧性",
+          "summary": "《Nature Materials》报道一种适用于激光增材制造的多主元合金，打印过程中可原位自组装形成体心立方/L2₁析出相胞状网络，无需后续热处理。材料在77至873开尔文范围内保持超过1吉帕屈服强度和约20%均匀延伸率，兼顾宽温域强度与延性。",
+          "source_name": "Nature Materials",
+          "source_url": "https://www.nature.com/articles/s41563-026-02792-3",
+          "published_at": "2026-11-02"
+        }
+      ]
+    }
+  ]
+}

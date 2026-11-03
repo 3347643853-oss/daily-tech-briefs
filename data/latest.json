@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是实体智能、循环材料与复杂工程同步从概念走向可验证场景：中国机器人企业把竞争焦点转向跨任务学习的“机器人之脑”，赤泥催化把塑料废物同时转化为氢气和建材增强剂；佛罗里达致命空难进入调查，NASA则加速载人登月与月球基地部署。",
+  "overview": "今日重点是高投入技术的风险结构与工程实现同步变得清晰：Anthropic上市文件把巨额算力承诺及其融资依赖摆上台面；电催化研究分离了驱动力和界面电场的相反影响。俄乌局势在致命袭击与重启谈判之间拉扯，增材制造则用原位组织设计实现宽温域强韧合金。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "中国机器人产业竞逐“机器人之脑”，具身智能融资激增",
-          "summary": "路透社采访多家中国机器人企业发现，行业竞争正从能跑会跳的硬件转向“机器人之脑”。今年上半年具身智能融资达935亿元，企业通过人工示教、仿真和真实工厂数据训练通用模型；但算力受限、跨场景可靠性与规模商业化仍是主要障碍。",
+          "title": "Anthropic披露近9000亿美元算力承诺，上市前融资风险受关注",
+          "summary": "Anthropic更新上市文件称，第三季度营收环比增长47%至169.6亿美元，净亏损收窄至232.9亿美元，但增速明显低于上一季度。公司同时披露与亚马逊、谷歌等合作方相关的算力承诺约8954亿美元，其中部分依赖外部融资，可能面临延期、涨价或缩水风险。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
-          "published_at": "2026-11-01"
+          "source_url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/",
+          "published_at": "2026-11-02"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "赤泥催化废塑料同时制氢并增强低碳建材",
-          "summary": "浙江大学团队把废塑料热解与赤泥催化耦合，同时制得氢气和可用于碱激发建材的碳纳米管/赤泥复合物。按最佳配比，每克塑料产氢21毫摩尔、产碳纳米管262毫克；添加1%复合物使材料抗压和抗折强度分别提高33.1%和54.3%。",
-          "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-79066-8",
-          "published_at": "2026-10-31"
+          "title": "Nature Chemistry分离电催化驱动力与界面电场效应",
+          "summary": "《Nature Chemistry》以Pt(111)表面一氧化碳瞬态氧化为模型，结合变温电流、零总电荷电位和拉曼光谱，分离电化学驱动力与双电层电场效应。结果显示，提高驱动力会降低活化能，而增强界面电场反而提高表观活化能，说明单一过电位描述不足。",
+          "source_name": "Nature Chemistry",
+          "source_url": "https://www.nature.com/articles/s41557-026-02290-8",
+          "published_at": "2026-11-02"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "佛罗里达商务机坠毁，机上9人全部遇难",
-          "summary": "美国佛罗里达州一架从得州飞往巴哈马的Learjet 60商务机在棕榈滩县居民区附近急坠并爆炸，机上9人全部遇难，地面暂未报告伤亡。飞行员事发前报告结冰、湍流和降水，FAA与NTSB已介入调查，附近约600名居民被疏散。",
+          "title": "俄军袭击乌克兰援助中心致26人死亡，三方谈判日期确定",
+          "summary": "俄罗斯袭击乌克兰扎波罗热地区一处人道援助发放中心及邻近避难所，乌方称至少26人死亡、约20人失踪，后续无人机攻击一度阻碍救援。袭击发生在赫尔松局部人道停火结束之际；美方宣布俄乌谈判计划于11月10日至11日在阿布扎比举行。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39",
-          "published_at": "2026-11-01"
+          "source_url": "https://apnews.com/article/russia-ukraine-cyberattacks-emergency-apps-717372f7bbf4e8a805bc918f06f9730f",
+          "published_at": "2026-11-02"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "NASA加速月球基地建设，目标2028年载人登月",
-          "summary": "NASA称将以“阿波罗式”节奏推进月球基地和载人登月：2027年夏季先让Artemis III在近地轨道与SpaceX、蓝色起源着陆器演练对接，Artemis IV仍计划2028年实现载人登月；首批月球车、着陆器和实验设备将提前部署到月球南极附近。",
-          "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/nasa-artemis-moon-astronauts-space-0a535368f718cb42f5b9c3378d3953c2",
-          "published_at": "2026-11-01"
+          "title": "3D打印多主元合金无需热处理即可保持宽温域强韧性",
+          "summary": "《Nature Materials》报道一种适用于激光增材制造的多主元合金，打印过程中可原位自组装形成体心立方/L2₁析出相胞状网络，无需后续热处理。材料在77至873开尔文范围内保持超过1吉帕屈服强度和约20%均匀延伸率，兼顾宽温域强度与延性。",
+          "source_name": "Nature Materials",
+          "source_url": "https://www.nature.com/articles/s41563-026-02792-3",
+          "published_at": "2026-11-02"
         }
       ]
     }

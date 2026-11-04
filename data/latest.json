@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "每日科技与要闻简报",
-  "overview": "今日重点是高投入技术的风险结构与工程实现同步变得清晰：Anthropic上市文件把巨额算力承诺及其融资依赖摆上台面；电催化研究分离了驱动力和界面电场的相反影响。俄乌局势在致命袭击与重启谈判之间拉扯，增材制造则用原位组织设计实现宽温域强韧合金。",
+  "overview": "今日主线是智能体从推荐进一步进入交易执行，半导体扩产则围绕 AI 所需的 HBM 与 2 纳米代工展开；科研侧出现面向高湿、低温工况的臭氧分解催化设计，国际安全方面格陵兰批准与丹麦、美国的三方协议。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Anthropic披露近9000亿美元算力承诺，上市前融资风险受关注",
-          "summary": "Anthropic更新上市文件称，第三季度营收环比增长47%至169.6亿美元，净亏损收窄至232.9亿美元，但增速明显低于上一季度。公司同时披露与亚马逊、谷歌等合作方相关的算力承诺约8954亿美元，其中部分依赖外部融资，可能面临延期、涨价或缩水风险。",
+          "title": "Zalando 推出 AI 购物智能体，计划把第三方商品结账留在自家应用内",
+          "summary": "欧洲时尚电商 Zalando 推出首个 AI 购物智能体，并计划 2027 年在 Zalando Extended 上线辅助结账，让用户无需离开应用即可购买第三方零售商商品。该工具将比价、推荐和支付串成完整流程，显示智能体商业化正从对话咨询迈向实际交易。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/",
-          "published_at": "2026-11-02"
+          "source_url": "https://www.reuters.com/business/retail-consumer/retailer-zalando-beats-quarterly-sales-expectations-it-taps-ai-agents-2026-11-03/",
+          "published_at": "2026-11-03"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "Nature Chemistry分离电催化驱动力与界面电场效应",
-          "summary": "《Nature Chemistry》以Pt(111)表面一氧化碳瞬态氧化为模型，结合变温电流、零总电荷电位和拉曼光谱，分离电化学驱动力与双电层电场效应。结果显示，提高驱动力会降低活化能，而增强界面电场反而提高表观活化能，说明单一过电位描述不足。",
-          "source_name": "Nature Chemistry",
-          "source_url": "https://www.nature.com/articles/s41557-026-02290-8",
-          "published_at": "2026-11-02"
+          "title": "双重限域 CoO 介晶在高湿与低温下保持臭氧分解活性",
+          "summary": "《Nature Communications》设计具有零维纳米腔和二维层间空间的亲水 CoO 介晶，利用受限氢键网络抑制水迁移和积聚，并以羟基促进过氧中间体转化。催化剂在 70% 相对湿度下稳定分解臭氧超过 24 小时，在 −5℃ 和超高空速下仍保持活性。",
+          "source_name": "Nature Communications",
+          "source_url": "https://www.nature.com/articles/s41467-026-79279-x",
+          "published_at": "2026-11-03"
         }
       ]
     },
@@ -31,11 +31,11 @@
       "category": "国内外重要社会新闻",
       "items": [
         {
-          "title": "俄军袭击乌克兰援助中心致26人死亡，三方谈判日期确定",
-          "summary": "俄罗斯袭击乌克兰扎波罗热地区一处人道援助发放中心及邻近避难所，乌方称至少26人死亡、约20人失踪，后续无人机攻击一度阻碍救援。袭击发生在赫尔松局部人道停火结束之际；美方宣布俄乌谈判计划于11月10日至11日在阿布扎比举行。",
+          "title": "格陵兰议会批准与丹麦、美国的三方安全协议",
+          "summary": "格陵兰议会以 16 票赞成、0 票反对和 7 票弃权批准与丹麦、美国的三方安全协议。协议允许扩大美国在岛上的基地部署，同时维持格陵兰由丹麦管辖，并约定即使未来独立仍继续适用；协议还需丹麦议会完成审议后方可生效。",
           "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/russia-ukraine-cyberattacks-emergency-apps-717372f7bbf4e8a805bc918f06f9730f",
-          "published_at": "2026-11-02"
+          "source_url": "https://apnews.com/article/greenland-trump-denmark-us-33824857ac4312c5ebd53821187ecc13",
+          "published_at": "2026-11-03"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "category": "先进制造与工程技术",
       "items": [
         {
-          "title": "3D打印多主元合金无需热处理即可保持宽温域强韧性",
-          "summary": "《Nature Materials》报道一种适用于激光增材制造的多主元合金，打印过程中可原位自组装形成体心立方/L2₁析出相胞状网络，无需后续热处理。材料在77至873开尔文范围内保持超过1吉帕屈服强度和约20%均匀延伸率，兼顾宽温域强度与延性。",
-          "source_name": "Nature Materials",
-          "source_url": "https://www.nature.com/articles/s41563-026-02792-3",
-          "published_at": "2026-11-02"
+          "title": "三星据报将在得州第二座晶圆厂生产 AMD 与英伟达 HBM 基础裸片",
+          "summary": "据韩国《每日经济新闻》援引产业消息，三星拟在得州泰勒第二座晶圆代工厂为 AMD 和英伟达生产高带宽内存基础裸片。工厂将采用 2 纳米工艺，本月正式开工，预计 2029 年起装机、2030 年量产；其产能据称已获订单覆盖，但三星尚未置评。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/world/asia-pacific/samsung-make-amd-nvidia-chip-parts-second-texas-plant-maeil-business-reports-2026-11-03/",
+          "published_at": "2026-11-03"
         }
       ]
     }

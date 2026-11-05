@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-05",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得优先小样验证的是 Google 的化学信息学技能包与 OptiMat Alloys：前者把文献和分子数据处理接入可执行工具，后者把材料机器学习势与可追溯数据库串成完整流程。Hy4 虽已发布，但权重和系统卡仍待公开。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "腾讯发布 Hy4，并限制进攻性网络与生物能力；权重尚未公开",
+          "summary": "腾讯发布 Hy4，并在训练中剔除攻击工具构建、入侵和渗透测试等进攻性网络安全内容，仅保留漏洞识别与修复等防御用途。公司称内部测试未发现显著增大网络或生物风险，但模型权重和系统卡仍待后续发布，当前不能把它称为已完成开放权重。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "Google DeepMind 发布可执行的化学信息学技能包",
+          "summary": "Google DeepMind 为 Antigravity 发布 Cheminformatics Skills，由大模型编排流程、RDKit 执行计算，连接 ChEMBL 与 PubChem。官方案例约一小时完成化合物检索、分子对分析和候选环化设计；代码为 Apache 2.0，但结果仍需实验验证。",
+          "source_name": "Google DeepMind",
+          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "Sarvam Prism 以一次前向计算输出固定选项概率",
+          "summary": "Sarvam 发布 Prism 开放权重决策模型，输入上下文和固定选项后一次前向计算返回各选项概率，不生成自由文本，适合分类、路由和置信度阈值决策。权重为 Apache 2.0；本地运行需约 120GB 显存、106GB 磁盘及自定义代码，普通工作站更现实的入口是托管 API。",
+          "source_name": "Sarvam AI",
+          "source_url": "https://www.sarvam.ai/blogs/sarvam-prism",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "Kandinsky S2V 1.0 开放说话头像视频模型与代码",
+          "summary": "Kandinsky Lab 开放 S2V 1.0 代码与权重，可由单张参考图、语音和提示词生成 25 帧每秒的说话头像视频，身体而非仅头部会随语音运动。代码采用 MIT 许可证，但权重另有条款；本地需至少 48GB 英伟达显存，Lite 权重约 25GB，更适合先用在线演示做短片验证。",
+          "source_name": "Kandinsky Lab",
+          "source_url": "https://github.com/kandinskylab/kandinsky-s2v",
+          "published_at": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "OptiMat Alloys 将材料机器学习势、对话智能体与可追溯数据库连成工作流",
+          "summary": "OptiMat Alloys 用对话智能体编排 ORB、MACE、NequIP 等机器学习势，按需计算合金结构、弹性和温度性质，并把结果及来源写入本地数据库。代码为 MIT 许可证，支持 CPU Docker；适合先用 48 原子小超胞验证可靠性，再扩大计算。",
+          "source_name": "npj Computational Materials",
+          "source_url": "https://www.nature.com/articles/s41524-026-02377-3",
+          "published_at": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}

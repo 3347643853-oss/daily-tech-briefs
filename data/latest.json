@@ -1,16 +1,37 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "每日科技与要闻简报",
-  "overview": "今日主线是智能体从推荐进一步进入交易执行，半导体扩产则围绕 AI 所需的 HBM 与 2 纳米代工展开；科研侧出现面向高湿、低温工况的臭氧分解催化设计，国际安全方面格陵兰批准与丹麦、美国的三方协议。",
+  "overview": "本期最值得优先小样验证的是 Google 的化学信息学技能包与 OptiMat Alloys：前者把文献和分子数据处理接入可执行工具，后者把材料机器学习势与可追溯数据库串成完整流程。Hy4 虽已发布，但权重和系统卡仍待公开。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Zalando 推出 AI 购物智能体，计划把第三方商品结账留在自家应用内",
-          "summary": "欧洲时尚电商 Zalando 推出首个 AI 购物智能体，并计划 2027 年在 Zalando Extended 上线辅助结账，让用户无需离开应用即可购买第三方零售商商品。该工具将比价、推荐和支付串成完整流程，显示智能体商业化正从对话咨询迈向实际交易。",
+          "title": "腾讯发布 Hy4，并限制进攻性网络与生物能力；权重尚未公开",
+          "summary": "腾讯发布 Hy4，并在训练中剔除攻击工具构建、入侵和渗透测试等进攻性网络安全内容，仅保留漏洞识别与修复等防御用途。公司称内部测试未发现显著增大网络或生物风险，但模型权重和系统卡仍待后续发布，当前不能把它称为已完成开放权重。",
           "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/business/retail-consumer/retailer-zalando-beats-quarterly-sales-expectations-it-taps-ai-agents-2026-11-03/",
+          "source_url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "Google DeepMind 发布可执行的化学信息学技能包",
+          "summary": "Google DeepMind 为 Antigravity 发布 Cheminformatics Skills，由大模型编排流程、RDKit 执行计算，连接 ChEMBL 与 PubChem。官方案例约一小时完成化合物检索、分子对分析和候选环化设计；代码为 Apache 2.0，但结果仍需实验验证。",
+          "source_name": "Google DeepMind",
+          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "Sarvam Prism 以一次前向计算输出固定选项概率",
+          "summary": "Sarvam 发布 Prism 开放权重决策模型，输入上下文和固定选项后一次前向计算返回各选项概率，不生成自由文本，适合分类、路由和置信度阈值决策。权重为 Apache 2.0；本地运行需约 120GB 显存、106GB 磁盘及自定义代码，普通工作站更现实的入口是托管 API。",
+          "source_name": "Sarvam AI",
+          "source_url": "https://www.sarvam.ai/blogs/sarvam-prism",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "Kandinsky S2V 1.0 开放说话头像视频模型与代码",
+          "summary": "Kandinsky Lab 开放 S2V 1.0 代码与权重，可由单张参考图、语音和提示词生成 25 帧每秒的说话头像视频，身体而非仅头部会随语音运动。代码采用 MIT 许可证，但权重另有条款；本地需至少 48GB 英伟达显存，Lite 权重约 25GB，更适合先用在线演示做短片验证。",
+          "source_name": "Kandinsky Lab",
+          "source_url": "https://github.com/kandinskylab/kandinsky-s2v",
           "published_at": "2026-11-03"
         }
       ]
@@ -19,35 +40,11 @@
       "category": "化工、催化与材料",
       "items": [
         {
-          "title": "双重限域 CoO 介晶在高湿与低温下保持臭氧分解活性",
-          "summary": "《Nature Communications》设计具有零维纳米腔和二维层间空间的亲水 CoO 介晶，利用受限氢键网络抑制水迁移和积聚，并以羟基促进过氧中间体转化。催化剂在 70% 相对湿度下稳定分解臭氧超过 24 小时，在 −5℃ 和超高空速下仍保持活性。",
-          "source_name": "Nature Communications",
-          "source_url": "https://www.nature.com/articles/s41467-026-79279-x",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "category": "国内外重要社会新闻",
-      "items": [
-        {
-          "title": "格陵兰议会批准与丹麦、美国的三方安全协议",
-          "summary": "格陵兰议会以 16 票赞成、0 票反对和 7 票弃权批准与丹麦、美国的三方安全协议。协议允许扩大美国在岛上的基地部署，同时维持格陵兰由丹麦管辖，并约定即使未来独立仍继续适用；协议还需丹麦议会完成审议后方可生效。",
-          "source_name": "Associated Press",
-          "source_url": "https://apnews.com/article/greenland-trump-denmark-us-33824857ac4312c5ebd53821187ecc13",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "category": "先进制造与工程技术",
-      "items": [
-        {
-          "title": "三星据报将在得州第二座晶圆厂生产 AMD 与英伟达 HBM 基础裸片",
-          "summary": "据韩国《每日经济新闻》援引产业消息，三星拟在得州泰勒第二座晶圆代工厂为 AMD 和英伟达生产高带宽内存基础裸片。工厂将采用 2 纳米工艺，本月正式开工，预计 2029 年起装机、2030 年量产；其产能据称已获订单覆盖，但三星尚未置评。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/world/asia-pacific/samsung-make-amd-nvidia-chip-parts-second-texas-plant-maeil-business-reports-2026-11-03/",
-          "published_at": "2026-11-03"
+          "title": "OptiMat Alloys 将材料机器学习势、对话智能体与可追溯数据库连成工作流",
+          "summary": "OptiMat Alloys 用对话智能体编排 ORB、MACE、NequIP 等机器学习势，按需计算合金结构、弹性和温度性质，并把结果及来源写入本地数据库。代码为 MIT 许可证，支持 CPU Docker；适合先用 48 原子小超胞验证可靠性，再扩大计算。",
+          "source_name": "npj Computational Materials",
+          "source_url": "https://www.nature.com/articles/s41524-026-02377-3",
+          "published_at": "2026-11-04"
         }
       ]
     }

@@ -1,50 +1,45 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得优先小样验证的是 Google 的化学信息学技能包与 OptiMat Alloys：前者把文献和分子数据处理接入可执行工具，后者把材料机器学习势与可追溯数据库串成完整流程。Hy4 虽已发布，但权重和系统卡仍待公开。",
+  "overview": "本期最值得验证的是 Images 2.6 的角色一致性编辑与 GIF 工作流，以及 Kimi K3.1 Pro 在长文档、图表和代码混合任务上的 API 表现。SWE-2 Flash 与 Together Compiler 都指向更低的编程和推理成本，但其厂商评测仍需小样复核。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "腾讯发布 Hy4，并限制进攻性网络与生物能力；权重尚未公开",
-          "summary": "腾讯发布 Hy4，并在训练中剔除攻击工具构建、入侵和渗透测试等进攻性网络安全内容，仅保留漏洞识别与修复等防御用途。公司称内部测试未发现显著增大网络或生物风险，但模型权重和系统卡仍待后续发布，当前不能把它称为已完成开放权重。",
-          "source_name": "Reuters",
-          "source_url": "https://www.reuters.com/legal/litigation/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-2026-11-04/",
+          "title": "OpenAI Images 2.6 加入 GIF、SVG 与精细编辑控制",
+          "summary": "OpenAI 发布 Images 2.6，官方称生成速度提升 50%，新增 GIF、SVG 导出、局部标注编辑和 complexity 控制；已覆盖 ChatGPT、Codex 与 API。它适合科研图示草稿、网页素材和角色动画迭代，但不是开放权重，程序化使用需 API 额度。",
+          "source_name": "OpenAI",
+          "source_url": "https://openai.com/index/introducing-images-2-6/",
           "published_at": "2026-11-04"
         },
         {
-          "title": "Google DeepMind 发布可执行的化学信息学技能包",
-          "summary": "Google DeepMind 为 Antigravity 发布 Cheminformatics Skills，由大模型编排流程、RDKit 执行计算，连接 ChEMBL 与 PubChem。官方案例约一小时完成化合物检索、分子对分析和候选环化设计；代码为 Apache 2.0，但结果仍需实验验证。",
-          "source_name": "Google DeepMind",
-          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-          "published_at": "2026-11-03"
-        },
-        {
-          "title": "Sarvam Prism 以一次前向计算输出固定选项概率",
-          "summary": "Sarvam 发布 Prism 开放权重决策模型，输入上下文和固定选项后一次前向计算返回各选项概率，不生成自由文本，适合分类、路由和置信度阈值决策。权重为 Apache 2.0；本地运行需约 120GB 显存、106GB 磁盘及自定义代码，普通工作站更现实的入口是托管 API。",
-          "source_name": "Sarvam AI",
-          "source_url": "https://www.sarvam.ai/blogs/sarvam-prism",
-          "published_at": "2026-11-03"
-        },
-        {
-          "title": "Kandinsky S2V 1.0 开放说话头像视频模型与代码",
-          "summary": "Kandinsky Lab 开放 S2V 1.0 代码与权重，可由单张参考图、语音和提示词生成 25 帧每秒的说话头像视频，身体而非仅头部会随语音运动。代码采用 MIT 许可证，但权重另有条款；本地需至少 48GB 英伟达显存，Lite 权重约 25GB，更适合先用在线演示做短片验证。",
-          "source_name": "Kandinsky Lab",
-          "source_url": "https://github.com/kandinskylab/kandinsky-s2v",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "category": "化工、催化与材料",
-      "items": [
-        {
-          "title": "OptiMat Alloys 将材料机器学习势、对话智能体与可追溯数据库连成工作流",
-          "summary": "OptiMat Alloys 用对话智能体编排 ORB、MACE、NequIP 等机器学习势，按需计算合金结构、弹性和温度性质，并把结果及来源写入本地数据库。代码为 MIT 许可证，支持 CPU Docker；适合先用 48 原子小超胞验证可靠性，再扩大计算。",
-          "source_name": "npj Computational Materials",
-          "source_url": "https://www.nature.com/articles/s41524-026-02377-3",
+          "title": "Kimi K3.1 Pro 开放权重，但许可证与本地硬件门槛需留意",
+          "summary": "月之暗面开放 Kimi K3.1 Pro 权重：2.8T 总参数、104B 激活、原生图文输入和 100 万 token 上下文，可通过官方兼容 API 或 vLLM、SGLang 使用。专用许可证对大规模 MaaS 商业用途有限制，完整本地部署远超普通工作站条件。",
+          "source_name": "Moonshot AI / Hugging Face",
+          "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
           "published_at": "2026-11-04"
+        },
+        {
+          "title": "Cognition 推出 SWE-2 Flash，主攻低成本快速编程代理",
+          "summary": "Cognition 推出 SWE-2 Flash，在 Devin Desktop 与 CLI 中用于代码修改、审查和文档维护；官方称速度约 200 token/s、价格为 SWE-2 的五分之一。权重目前未公开，仅计划向经审核伙伴共享，因此应视为托管产品，先用小仓库核对测试通过率与实际费用。",
+          "source_name": "Cognition",
+          "source_url": "https://cognition.com/blog/swe-2-flash",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "Together Compiler 用代理持续优化开放模型推理",
+          "summary": "Together AI 发布 Together Compiler，让代理持续搜索适合模型、GPU 和流量形态的推理优化；官方在多种开放模型组合上报告最高 2.6 倍吞吐提升。系统已用于部分无服务器端点，专用部署仍是有限测试，收益需用固定硬件与请求分布实测。",
+          "source_name": "Together AI",
+          "source_url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "GPT-6 Cyber 面向授权漏洞研究，初期仅限受审用户",
+          "summary": "OpenAI 发布 GPT-6 Cyber，用于授权漏洞发现、验证与补丁生成；官方称 ExploitGym 得分由前代 32.1% 升至 48.5%，并参与 Linux、Firefox 漏洞研究。它仅向获批 Daybreak Red 用户经 API 提供，普通开发者不能直接调用。",
+          "source_name": "OpenAI",
+          "source_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "published_at": "2026-11-05"
         }
       ]
     }

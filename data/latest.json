@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得验证的是 Images 2.6 的角色一致性编辑与 GIF 工作流，以及 Kimi K3.1 Pro 在长文档、图表和代码混合任务上的 API 表现。SWE-2 Flash 与 Together Compiler 都指向更低的编程和推理成本，但其厂商评测仍需小样复核。",
+  "overview": "本期最值得优先验证的是 Gemini Omni 1.2 Flash 的多轮视频改版能力，以及 LeRobot 0.7.0 的无硬件仿真流程。ERNIE 5.5 Flash Base 和 Inkling 2 Small 虽值得跟踪，但前者是未经后训练的基座，后者权重尚未开放。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "OpenAI Images 2.6 加入 GIF、SVG 与精细编辑控制",
-          "summary": "OpenAI 发布 Images 2.6，官方称生成速度提升 50%，新增 GIF、SVG 导出、局部标注编辑和 complexity 控制；已覆盖 ChatGPT、Codex 与 API。它适合科研图示草稿、网页素材和角色动画迭代，但不是开放权重，程序化使用需 API 额度。",
-          "source_name": "OpenAI",
-          "source_url": "https://openai.com/index/introducing-images-2-6/",
-          "published_at": "2026-11-04"
+          "title": "Gemini Omni 1.2 Flash 把视频延长至15秒并降价三成",
+          "summary": "Google 发布 Gemini Omni 1.2 Flash，可原生生成最长15秒视频，并通过多轮对话替换背景、动作或画幅；官方称相较1.1价格下降30%，720p为每秒0.07美元。适合动画与MV短镜头迭代，但快速运动和复杂物理仍是已知弱项。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "published_at": "2026-11-05"
         },
         {
-          "title": "Kimi K3.1 Pro 开放权重，但许可证与本地硬件门槛需留意",
-          "summary": "月之暗面开放 Kimi K3.1 Pro 权重：2.8T 总参数、104B 激活、原生图文输入和 100 万 token 上下文，可通过官方兼容 API 或 vLLM、SGLang 使用。专用许可证对大规模 MaaS 商业用途有限制，完整本地部署远超普通工作站条件。",
-          "source_name": "Moonshot AI / Hugging Face",
-          "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-          "published_at": "2026-11-04"
+          "title": "ERNIE 5.5 Flash Base 开放预训练权重，尚非对话模型",
+          "summary": "百度开放 ERNIE 5.5 Flash Base 预训练权重：280B总参数、14B激活，微调和推理最高支持100万token。它尚未经过指令或后训练，不能直接当聊天模型；使用专用许可证，官方部署示例需要多路GPU并行，普通工作站不适合。",
+          "source_name": "Baidu / Hugging Face",
+          "source_url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+          "published_at": "2026-11-05"
         },
         {
-          "title": "Cognition 推出 SWE-2 Flash，主攻低成本快速编程代理",
-          "summary": "Cognition 推出 SWE-2 Flash，在 Devin Desktop 与 CLI 中用于代码修改、审查和文档维护；官方称速度约 200 token/s、价格为 SWE-2 的五分之一。权重目前未公开，仅计划向经审核伙伴共享，因此应视为托管产品，先用小仓库核对测试通过率与实际费用。",
-          "source_name": "Cognition",
-          "source_url": "https://cognition.com/blog/swe-2-flash",
-          "published_at": "2026-11-04"
+          "title": "Inkling 2 Small 强化长程编程与视觉创作，权重仍待开放",
+          "summary": "Thinking Machines 发布 Inkling 2 Small，面向长程编程、网页、小游戏、3D和数据研究，可在Tinker中采样与微调。当前权重仍关闭，Apache 2.0发布只是安全评估后的计划；官方长程实验曾花费426美元，使用前应设严格预算。",
+          "source_name": "Thinking Machines Lab",
+          "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "published_at": "2026-11-05"
         },
         {
-          "title": "Together Compiler 用代理持续优化开放模型推理",
-          "summary": "Together AI 发布 Together Compiler，让代理持续搜索适合模型、GPU 和流量形态的推理优化；官方在多种开放模型组合上报告最高 2.6 倍吞吐提升。系统已用于部分无服务器端点，专用部署仍是有限测试，收益需用固定硬件与请求分布实测。",
-          "source_name": "Together AI",
-          "source_url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-          "published_at": "2026-11-04"
+          "title": "LeRobot 0.7.0 加入语言交互、远程推理与统一仿真",
+          "summary": "Hugging Face 发布 LeRobot 0.7.0，让机器人运行中接受新子任务、视觉问答和自主分解目标，并支持TB级数据流式训练、远程GPU推理及统一仿真接口。它适合无实体硬件的具身智能入门，但具体模型、数据集和仿真器许可证需分别核对。",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+          "published_at": "2026-11-06"
         },
         {
-          "title": "GPT-6 Cyber 面向授权漏洞研究，初期仅限受审用户",
-          "summary": "OpenAI 发布 GPT-6 Cyber，用于授权漏洞发现、验证与补丁生成；官方称 ExploitGym 得分由前代 32.1% 升至 48.5%，并参与 Linux、Firefox 漏洞研究。它仅向获批 Daybreak Red 用户经 API 提供，普通开发者不能直接调用。",
-          "source_name": "OpenAI",
-          "source_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "title": "NVIDIA 为 Cosmos 3 开放四个交互式世界仿真检查点",
+          "summary": "NVIDIA 为 Cosmos 3 新增四个16B级开放权重检查点，覆盖多视角驾驶、相机与LiDAR同步、仿真控制转视频及双臂动作转视频。模型采用OpenMDW-1.1；官方测试需Linux、NVIDIA GPU与Docker，普通工作站门槛较高。",
+          "source_name": "NVIDIA / Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
           "published_at": "2026-11-05"
         }
       ]

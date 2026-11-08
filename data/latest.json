@@ -1,42 +1,63 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得优先验证的是 Gemini Omni 1.2 Flash 的多轮视频改版能力，以及 LeRobot 0.7.0 的无硬件仿真流程。ERNIE 5.5 Flash Base 和 Inkling 2 Small 虽值得跟踪，但前者是未经后训练的基座，后者权重尚未开放。",
+  "overview": "本期最值得验证的是Science Skills的公开分子数据工作流，以及OptiMat Alloys的48原子小超胞计算；两者都能以小样检查可复现性，再决定是否扩大投入。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Gemini Omni 1.2 Flash 把视频延长至15秒并降价三成",
-          "summary": "Google 发布 Gemini Omni 1.2 Flash，可原生生成最长15秒视频，并通过多轮对话替换背景、动作或画幅；官方称相较1.1价格下降30%，720p为每秒0.07美元。适合动画与MV短镜头迭代，但快速运动和复杂物理仍是已知弱项。",
-          "source_name": "Google",
-          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "published_at": "2026-11-05"
+          "title": "AI2开放ToyBlocks可控机器人学习世界",
+          "summary": "AI2发布ToyBlocks，开放仿真资产、训练评测代码、两类模型及8.5万余条长程演示，可把规划、感知与动作失败分开分析。它适合验证Agent和世界模型，但入门仍需Isaac Lab与NVIDIA GPU，真机机械臂并非必需。",
+          "source_name": "Allen Institute for AI / Hugging Face",
+          "source_url": "https://huggingface.co/blog/allenai/toyblocks",
+          "published_at": "2026-11-06"
         },
         {
-          "title": "ERNIE 5.5 Flash Base 开放预训练权重，尚非对话模型",
-          "summary": "百度开放 ERNIE 5.5 Flash Base 预训练权重：280B总参数、14B激活，微调和推理最高支持100万token。它尚未经过指令或后训练，不能直接当聊天模型；使用专用许可证，官方部署示例需要多路GPU并行，普通工作站不适合。",
-          "source_name": "Baidu / Hugging Face",
-          "source_url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
-          "published_at": "2026-11-05"
+          "title": "Kakao开放Kanana 3.67B多模态决策模型",
+          "summary": "Kanana不生成自由文本，而是对文本、JSON、聊天记录及最多10张图片执行选择、是非和评分问题，并返回候选概率，适合文献分类与任务路由。权重采用Kanana专用许可，本地需Transformers、自定义代码及支持BF16的CUDA GPU。",
+          "source_name": "Kakao Corp. / Hugging Face",
+          "source_url": "https://huggingface.co/kakaocorp/kanana-2-v-decide-3b-2611",
+          "published_at": "2026-11-06"
         },
         {
-          "title": "Inkling 2 Small 强化长程编程与视觉创作，权重仍待开放",
-          "summary": "Thinking Machines 发布 Inkling 2 Small，面向长程编程、网页、小游戏、3D和数据研究，可在Tinker中采样与微调。当前权重仍关闭，Apache 2.0发布只是安全评估后的计划；官方长程实验曾花费426美元，使用前应设严格预算。",
-          "source_name": "Thinking Machines Lab",
-          "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "published_at": "2026-11-05"
+          "title": "Dharma 2B模型把文档字段直接抽成JSON",
+          "summary": "Dharma Field Extractor可按开放模式或指定schema，从文档图像输出有类型的嵌套JSON及缺失字段null，适合论文表格和扫描件结构化。作者基准高于所测通用模型但属自测；基础权重为限制性非商用许可，公共机构使用也受限。",
+          "source_name": "Dharma-AI / Hugging Face",
+          "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "published_at": "2026-11-04"
         },
         {
-          "title": "LeRobot 0.7.0 加入语言交互、远程推理与统一仿真",
-          "summary": "Hugging Face 发布 LeRobot 0.7.0，让机器人运行中接受新子任务、视觉问答和自主分解目标，并支持TB级数据流式训练、远程GPU推理及统一仿真接口。它适合无实体硬件的具身智能入门，但具体模型、数据集和仿真器许可证需分别核对。",
+          "title": "本周开源回顾｜Google DeepMind Science Skills",
+          "summary": "Science Skills以Apache 2.0开放科研技能代码，让模型编排数据库检索与推理，RDKit等确定性工具执行化学计算。最值得先用10—20个公开分子验证结构解析、去重、来源追踪与性质复现；部分数据源和技能另有条款或API密钥要求。",
+          "source_name": "Google DeepMind",
+          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "本周开源回顾｜OptiMat Alloys 1.1.0",
+          "summary": "OptiMat Alloys以MIT代码、Docker和自然语言智能体编排ORB、MACE等机器学习势，并把计算与溯源写入本地数据库。建议先跑48原子二元或三元合金，对比两种势的结构稳定性、弹性结果与耗时；CPU可用，NVIDIA GPU约快5—10倍。",
+          "source_name": "npj Computational Materials",
+          "source_url": "https://www.nature.com/articles/s41524-026-02377-3",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "本周开源回顾｜Kimi K3.1 Pro",
+          "summary": "Moonshot开放Kimi K3.1 Pro多模态智能体权重，支持约百万token上下文及vLLM、SGLang部署，适合长文献与大代码库实验。模型规模达2.8万亿总参数、约1040亿激活，个人本地不现实；专用许可对大型MaaS商业使用另有限制。",
+          "source_name": "Moonshot AI / Hugging Face",
+          "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "published_at": "2026-11-04"
+        },
+        {
+          "title": "本周开源回顾｜LeRobot 0.7.0",
+          "summary": "LeRobot 0.7.0新增子任务切换、视觉问答、目标分解、TB级数据流式读取和远程GPU推理，并扩充世界动作模型接入。它适合先做无真机仿真闭环；具体VLA、数据集和仿真器许可证需分别核对，实际硬件与云GPU成本取决于任务。",
           "source_name": "Hugging Face",
           "source_url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
           "published_at": "2026-11-06"
         },
         {
-          "title": "NVIDIA 为 Cosmos 3 开放四个交互式世界仿真检查点",
-          "summary": "NVIDIA 为 Cosmos 3 新增四个16B级开放权重检查点，覆盖多视角驾驶、相机与LiDAR同步、仿真控制转视频及双臂动作转视频。模型采用OpenMDW-1.1；官方测试需Linux、NVIDIA GPU与Docker，普通工作站门槛较高。",
+          "title": "本周开源回顾｜Cosmos 3交互仿真检查点",
+          "summary": "NVIDIA为Cosmos 3新增四个16B级开放权重检查点，覆盖多视角驾驶、相机与LiDAR同步、仿真控制转视频及双臂动作预测。OpenMDW-1.1允许依条款商用和非商用，但官方配置显示门槛较高，普通工作站宜先观察而非直接部署。",
           "source_name": "NVIDIA / Hugging Face",
           "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
           "published_at": "2026-11-05"

@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-09",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得验证的是Palette的科研PPT可检查生成流程，以及Ampersand在多人Agent协作中的协调能力；两者都适合先用可回滚的小任务评估实际收益。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Arete-27B开放权重，用SFT重塑Qwen3.8回答倾向",
+          "summary": "Nous Research开放Arete-27B，以Qwen3.8-27B为底座做监督微调，目标是降低政治敏感问题中的拒答和特定叙事。作者803条提示评测称“宣传式回答”由22%降至0.9%，但属自测；Apache 2.0权重的社区Q4量化约17GB。",
+          "source_name": "Nous Research / Hugging Face",
+          "source_url": "https://huggingface.co/NousResearch/Arete-27B",
+          "published_at": "2026-11-06"
+        },
+        {
+          "title": "Harness Adapters让同一模型适配不同编程Agent",
+          "summary": "新方案为pi、OpenCode和Hermes等不同Agent运行框架分别训练小型LoRA，并用safeagents在工具执行前拦截危险调用。初步保留任务显示调用次数减少、准确率持平或提高，但作者称仍是小规模训练；复现需Docker、TRL、vLLM及GPU。",
+          "source_name": "Harness Hub / Hugging Face",
+          "source_url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+          "published_at": "2026-11-06"
+        },
+        {
+          "title": "Ampersand协作模型接入AI Gateway，限时免费",
+          "summary": "Ampersand并非本周新模型，其首次发布为10月20日；11月6日新增Vercel AI Gateway入口，并限时免费至11月13日。它面向多人讨论和长期协作，可决定发言或保持沉默；仅API可用，调用方仍须校验权限与工具动作。",
+          "source_name": "Vercel",
+          "source_url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+          "published_at": "2026-11-06"
+        },
+        {
+          "title": "IBM Palette把PPT生成变成可检查、可修复流水线",
+          "summary": "Palette用20B开放权重模型加LoRA，将PPT拆成结构化策划、逐页代码生成、渲染检测和修复验证，计划可人工编辑，各页还可并行生成。它适合科研汇报模板复用，但需Python、Node、LibreOffice及模型服务；作者评测尚未独立复现。",
+          "source_name": "IBM Research / Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "published_at": "2026-11-03"
+        },
+        {
+          "title": "开放ASR榜单新增埃及与尼日利亚英语私有测试集",
+          "summary": "Hugging Face开放ASR榜单加入埃及和尼日利亚英语对话测试，并使用不公开音频降低针对公开集“刷榜”的空间。更新重点是让口音差异和非美国英语表现更可见，不是发布新语音模型；两套私有数据分别仅约1.34和1.55小时。",
+          "source_name": "Hugging Face / Liva AI",
+          "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "published_at": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

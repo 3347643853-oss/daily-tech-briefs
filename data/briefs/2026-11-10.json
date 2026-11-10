@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-10",
+  "overview": "本期最值得验证的是HOPE与Sand3D：前者为大型MoE模型提供无需再训练的专家剪枝路线，后者把十万级3D资产统一成可编辑Python程序；二者都应先用小样核对质量、成本与许可。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "published_at": "2026-11-09",
+          "source_name": "Amazon／Hugging Face",
+          "source_url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "summary": "HOPE不再独立给每个专家打分，而用两两协作矩阵决定剪枝；作者在三种MoE上称50%剪枝时平均排名优于REAP，代理编程最高多6.1%。代码为Apache 2.0，需完整模型做一次校准前向，适合已有GPU服务器的降显存实验。",
+          "title": "Amazon开源HOPE：按专家协作关系压缩MoE模型"
+        },
+        {
+          "published_at": "2026-11-07",
+          "source_name": "OpenMOSS",
+          "source_url": "https://huggingface.co/blog/OpenMOSS-Team/moss-live",
+          "summary": "MOSS-Live把前台全双工语音/视觉交互与后台推理、工具任务分开协调，可处理打断、筛选背景说话，并在检索运行时继续对话。现有在线体验和Realtime API可试；公开仓库主要是说明材料，未见完整权重、实现代码及明确许可证。",
+          "title": "MOSS-Live发布：语音、实时视觉与后台工具可并行"
+        },
+        {
+          "published_at": "2026-11-05",
+          "source_name": "Sandflow",
+          "source_url": "https://huggingface.co/blog/Sandflow/sand3d-106094-3d-objects-in-one-code-substrate-for",
+          "summary": "Sand3D将106,094个物体统一为短Python程序，10,456个含关节，并可导出GLB、URDF、USD等格式，适合小游戏、网页与仿真资产原型。库为Apache 2.0；数据集标记CC BY 4.0，但每个对象仍保留原始来源许可，商用前须逐项筛选。",
+          "title": "Sand3D用统一Python程序发布10.6万项3D对象"
+        },
+        {
+          "published_at": "2026-11-05",
+          "source_name": "Hugging Face LeRobot",
+          "source_url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+          "summary": "LeRobot 0.7.0支持运行中切换子任务、提问与自动分解目标，并能从Hub或对象存储流式读取大数据、把策略放到远程GPU。框架公开，但接入模型和数据各有条款；升级需注意Linux默认CUDA 13构建要求较新驱动，旧驱动要先装CUDA 12版PyTorch。",
+          "title": "LeRobot 0.7.0把语言交互、数据流式读取与远程推理串成闭环"
+        },
+        {
+          "published_at": "2026-11-05",
+          "source_name": "LingYu Robotics",
+          "source_url": "https://huggingface.co/blog/LingYu-Robotics/lingyu-real-world-robotics-dataset-bimanual-first",
+          "summary": "首批数据含13,263个成功片段、22个自含子集，以45Hz同步头部/腕部视频、62维状态与动作，便于双臂模仿学习和长程策略研究。全量约9.16TB，可按任务下载；许可证为CC BY-NC-SA 4.0，且没有失败或恢复轨迹，不能直接代表鲁棒性。",
+          "title": "LingYu开放139.4小时第一人称双臂遥操作数据"
+        }
+      ]
+    }
+  ],
+  "title": "每日科技与要闻简报"
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-11",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得关注的是Gemini 4 Carbon的公开可用与Decision Models统一接口：前者适合高难度长程科研／编程小样，后者更可能以低成本改善文献分类和Agent路由。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Gemini 4 Carbon转为广泛可用，瞄准长程编程与科研代理",
+          "summary": "Google将Gemini 4 Carbon从约两周的定向防御预览转为广泛可用，主攻长程编程与科研代理；官方称MKA平均成本仅榜首模型六分之一。它仅通过API和Google产品提供，11月30日前输入／输出价为每百万token 2／10美元，普通任务仍建议用Argon。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/technology/ai/gemini-4-carbon/",
+          "published_at": "2026-11-10"
+        },
+        {
+          "title": "Hugging Face为Decision Models加入统一推理接口",
+          "summary": "Hugging Face为Transformers和llama.cpp加入统一Decision Models接口，可在预设选项上直接返回选择、分数或二元判断及概率，无需生成整段文本。适合材料文献分类和Agent路由；代码开放，但模型许可证与显存依所选权重，TRL训练支持仍只是待合并PR。",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/decision-models",
+          "published_at": "2026-11-10"
+        },
+        {
+          "title": "MotionGraphicsBench用程序化验证评测SVG动画生成",
+          "summary": "Figma AI发布100项SVG动画任务和确定性Python验证程序，作者称在180个留出样本上与人工判断一致率93.3%，高于VLM基线83.3%。它适合动画与网页动效回归测试，CPU即可验证；但这是评测基准而非生成模型，仓库统一许可证尚未核实。",
+          "source_name": "Figma AI / Hugging Face",
+          "source_url": "https://huggingface.co/blog/figma-ai/motion-graphics-bench",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "分子氮阴离子机制推动非贵金属低温合成氨",
+          "summary": "东京科学大学团队报道Co／Ba₃AlO₄₋ₓNᵧH_z／Al₂O₃催化剂，在300℃、0.9MPa下达到15.9 mmol NH₃·g_cat⁻¹·h⁻¹。研究把活性归因于界面分子氮阴离子协同机制且不用贵金属；数据来自10月28日JACS论文，工业寿命与放大仍待验证。",
+          "source_name": "Institute of Science Tokyo",
+          "source_url": "https://www.isct.ac.jp/en/news/4ix5w1nhu1zo",
+          "published_at": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

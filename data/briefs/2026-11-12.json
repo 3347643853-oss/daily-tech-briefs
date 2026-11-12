@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-12",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得验证的是ZEBRA-Prop与MiniMax H3-Image：前者直接对应低成本材料物性预测，后者为科研图示和多参考图创作提供了新的开放权重选择，但许可证地域限制必须先核对。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "MiniMax开放H3-Image权重，支持4K生成与16图参考",
+          "summary": "MiniMax开放H3-Image权重，支持4K生成、最多16张参考图及图像编辑；厂商称4K可在10秒内完成。模型约204GB，社区许可证排除欧盟、英国、韩国和美国，不能等同通用开源；普通用户更适合先用API测试科研图示和角色一致性。",
+          "source_name": "MiniMax",
+          "source_url": "https://www.minimax.io/blog/minimax-h3-image",
+          "published_at": "2026-11-11"
+        },
+        {
+          "title": "Qwen4-Max-Preview限时开放多模态与Agent能力",
+          "summary": "QwenCloud上线Qwen4-Max-Preview，覆盖图像和视频理解、编程、工具调用及结构化输出，并兼容OpenAI与Anthropic接口。它仅向Token Plan用户开放，不支持按量付费，预览将在11月25日结束后退役；适合短期对比，不宜写入长期生产流程。",
+          "source_name": "QwenCloud",
+          "source_url": "https://docs.qwencloud.com/changelog/models",
+          "published_at": "2026-11-11"
+        },
+        {
+          "title": "Claude Fable 5.2面向百万上下文长程技术任务",
+          "summary": "Anthropic于11月9日发布Claude Fable 5.2，提供100万token上下文、最多12.8万token输出和始终开启的自适应思考，适合长程科研与代码任务。它仅托管可用，API输入／输出为每百万token 8／40美元；官方建议多数任务先评估更便宜的Opus。",
+          "source_name": "Anthropic",
+          "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "published_at": "2026-11-09"
+        },
+        {
+          "title": "PAN 2开放世界模型权重与训练代码，可模拟动作结果",
+          "summary": "IFM开放PAN 2的29.2B视频模型权重及训练、推理代码，可把初始场景和文字动作模拟成最长20秒视频，用于Agent和机器人“先想象后行动”。自身代码与权重为Apache 2.0，但依赖组件另有许可；每个GPU进程需装下完整模型，普通工作站门槛较高。",
+          "source_name": "Institute of Foundation Models",
+          "source_url": "https://ifm.ai/pan2/press-release/",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "ZEBRA-Prop让普通PC用材料文本预测物性",
+          "summary": "日方团队提出ZEBRA-Prop：冻结语言模型，只训练后端小网络，并加权融合多段材料文字的嵌入。作者称较LLM全量训练缩短约95%时间，2,202条数据可在普通PC数十分钟训练；配套数据为CC BY 4.0，但完整训练实现代码尚未确认公开。",
+          "source_name": "Tohoku University",
+          "source_url": "https://www.tohoku.ac.jp/japanese/2026/11/press20261111-04-ZEBRA.html",
+          "published_at": "2026-11-11"
+        }
+      ]
+    }
+  ]
+}

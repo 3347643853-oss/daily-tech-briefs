@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得验证的是IBM用LLMON显式隔离指令与检索数据的安全思路，以及Google、Zyphra把离线语音能力推进到手机和浏览器。前者仍是实验预览，后两者的端侧表现需在目标设备实测。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "IBM发布Granite 4.1 LLMON实验预览，给提示词建立指令—数据边界",
+          "summary": "IBM开放3B与8B预览权重及工具包，用LLMON给指令、文档和工具结果加可寻址结构，旨在降低间接提示注入。作者称部分基准攻击成功率接近零；权重为Apache 2.0，但仍属实验版，适合先用文献RAG小样对照，且应由chat template生成标记。",
+          "source_name": "IBM Granite / Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "Salesforce开放SOV-Transcribe-1，强化术语偏置与关键实体转写",
+          "summary": "这款非流式ASR为26B总参数、4B激活，支持领域词提示、格式指令及电话邮箱等实体。Salesforce称其在11月12日榜单快照中居开放权重非流式ASR首位；权重为Apache 2.0，但技术报告和最低显存尚未明确，不适合实时字幕。",
+          "source_name": "Salesforce Sovereign Intelligence / Hugging Face",
+          "source_url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "ZONOS3-Mini开放端侧多语种声音克隆与可控TTS",
+          "summary": "Zyphra发布100M激活、800M总参数的稀疏TTS，支持43种语言、零样本声音克隆和词级情绪节奏控制，并提供WebGPU、MLX与GGUF等运行路径。权重Apache 2.0、代码MIT；作者报告Pixel 9浏览器首音频低于570毫秒，实际效果须在目标设备与获授权声音上验证。",
+          "source_name": "Zyphra / Hugging Face",
+          "source_url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
+          "published_at": "2026-11-11"
+        },
+        {
+          "title": "Google AI Edge Gallery加入离线ASR与TTS参考实现",
+          "summary": "Google把流式识别和朗读接入AI Edge Gallery，并公开ML Kit、MediaPipe与LiteRT范例，可与Gemini Nano或Gemma 4在手机端离线协作。仓库为Apache 2.0，Android要求12以上、iOS要求17以上；系统模型可用性与延迟仍取决于机型。",
+          "source_name": "Google Developers Blog",
+          "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+          "published_at": "2026-11-10"
+        },
+        {
+          "title": "Runway兑现Praxis-1开放承诺，发布机器人视频—动作模型权重与代码",
+          "summary": "Praxis-1早在9月介绍，本次才开放27B MoE模型、推理及微调代码；它联合预测下一段视频和机器人动作。项目采用Apache 2.0，作者报告RoboLab-120成功率46.2%；官方基础仿真需至少80GB显存、检查点约54.4GB，暂不适合低成本本地工作站。",
+          "source_name": "Runway",
+          "source_url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+          "published_at": "2026-11-11"
+        }
+      ]
+    }
+  ]
+}

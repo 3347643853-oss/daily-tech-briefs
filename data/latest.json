@@ -1,49 +1,44 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得验证的是ZEBRA-Prop与MiniMax H3-Image：前者直接对应低成本材料物性预测，后者为科研图示和多参考图创作提供了新的开放权重选择，但许可证地域限制必须先核对。",
+  "overview": "本期最值得验证的是IBM用LLMON显式隔离指令与检索数据的安全思路，以及Google、Zyphra把离线语音能力推进到手机和浏览器。前者仍是实验预览，后两者的端侧表现需在目标设备实测。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "MiniMax开放H3-Image权重，支持4K生成与16图参考",
-          "summary": "MiniMax开放H3-Image权重，支持4K生成、最多16张参考图及图像编辑；厂商称4K可在10秒内完成。模型约204GB，社区许可证排除欧盟、英国、韩国和美国，不能等同通用开源；普通用户更适合先用API测试科研图示和角色一致性。",
-          "source_name": "MiniMax",
-          "source_url": "https://www.minimax.io/blog/minimax-h3-image",
+          "title": "IBM发布Granite 4.1 LLMON实验预览，给提示词建立指令—数据边界",
+          "summary": "IBM开放3B与8B预览权重及工具包，用LLMON给指令、文档和工具结果加可寻址结构，旨在降低间接提示注入。作者称部分基准攻击成功率接近零；权重为Apache 2.0，但仍属实验版，适合先用文献RAG小样对照，且应由chat template生成标记。",
+          "source_name": "IBM Granite / Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "Salesforce开放SOV-Transcribe-1，强化术语偏置与关键实体转写",
+          "summary": "这款非流式ASR为26B总参数、4B激活，支持领域词提示、格式指令及电话邮箱等实体。Salesforce称其在11月12日榜单快照中居开放权重非流式ASR首位；权重为Apache 2.0，但技术报告和最低显存尚未明确，不适合实时字幕。",
+          "source_name": "Salesforce Sovereign Intelligence / Hugging Face",
+          "source_url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "ZONOS3-Mini开放端侧多语种声音克隆与可控TTS",
+          "summary": "Zyphra发布100M激活、800M总参数的稀疏TTS，支持43种语言、零样本声音克隆和词级情绪节奏控制，并提供WebGPU、MLX与GGUF等运行路径。权重Apache 2.0、代码MIT；作者报告Pixel 9浏览器首音频低于570毫秒，实际效果须在目标设备与获授权声音上验证。",
+          "source_name": "Zyphra / Hugging Face",
+          "source_url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
           "published_at": "2026-11-11"
         },
         {
-          "title": "Qwen4-Max-Preview限时开放多模态与Agent能力",
-          "summary": "QwenCloud上线Qwen4-Max-Preview，覆盖图像和视频理解、编程、工具调用及结构化输出，并兼容OpenAI与Anthropic接口。它仅向Token Plan用户开放，不支持按量付费，预览将在11月25日结束后退役；适合短期对比，不宜写入长期生产流程。",
-          "source_name": "QwenCloud",
-          "source_url": "https://docs.qwencloud.com/changelog/models",
-          "published_at": "2026-11-11"
-        },
-        {
-          "title": "Claude Fable 5.2面向百万上下文长程技术任务",
-          "summary": "Anthropic于11月9日发布Claude Fable 5.2，提供100万token上下文、最多12.8万token输出和始终开启的自适应思考，适合长程科研与代码任务。它仅托管可用，API输入／输出为每百万token 8／40美元；官方建议多数任务先评估更便宜的Opus。",
-          "source_name": "Anthropic",
-          "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "published_at": "2026-11-09"
-        },
-        {
-          "title": "PAN 2开放世界模型权重与训练代码，可模拟动作结果",
-          "summary": "IFM开放PAN 2的29.2B视频模型权重及训练、推理代码，可把初始场景和文字动作模拟成最长20秒视频，用于Agent和机器人“先想象后行动”。自身代码与权重为Apache 2.0，但依赖组件另有许可；每个GPU进程需装下完整模型，普通工作站门槛较高。",
-          "source_name": "Institute of Foundation Models",
-          "source_url": "https://ifm.ai/pan2/press-release/",
+          "title": "Google AI Edge Gallery加入离线ASR与TTS参考实现",
+          "summary": "Google把流式识别和朗读接入AI Edge Gallery，并公开ML Kit、MediaPipe与LiteRT范例，可与Gemini Nano或Gemma 4在手机端离线协作。仓库为Apache 2.0，Android要求12以上、iOS要求17以上；系统模型可用性与延迟仍取决于机型。",
+          "source_name": "Google Developers Blog",
+          "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
           "published_at": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "category": "化工、催化与材料",
-      "items": [
+        },
         {
-          "title": "ZEBRA-Prop让普通PC用材料文本预测物性",
-          "summary": "日方团队提出ZEBRA-Prop：冻结语言模型，只训练后端小网络，并加权融合多段材料文字的嵌入。作者称较LLM全量训练缩短约95%时间，2,202条数据可在普通PC数十分钟训练；配套数据为CC BY 4.0，但完整训练实现代码尚未确认公开。",
-          "source_name": "Tohoku University",
-          "source_url": "https://www.tohoku.ac.jp/japanese/2026/11/press20261111-04-ZEBRA.html",
+          "title": "Runway兑现Praxis-1开放承诺，发布机器人视频—动作模型权重与代码",
+          "summary": "Praxis-1早在9月介绍，本次才开放27B MoE模型、推理及微调代码；它联合预测下一段视频和机器人动作。项目采用Apache 2.0，作者报告RoboLab-120成功率46.2%；官方基础仿真需至少80GB显存、检查点约54.4GB，暂不适合低成本本地工作站。",
+          "source_name": "Runway",
+          "source_url": "https://runway.com/news/company-news/praxis-1-is-now-available",
           "published_at": "2026-11-11"
         }
       ]

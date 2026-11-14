@@ -1,45 +1,50 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得验证的是IBM用LLMON显式隔离指令与检索数据的安全思路，以及Google、Zyphra把离线语音能力推进到手机和浏览器。前者仍是实验预览，后两者的端侧表现需在目标设备实测。",
+  "overview": "本期最值得验证的是Perplexity Decider Flash v1.3的文献分类与原句定位能力，以及BotPsy在手机端低风险工具调用中的可行性。Inkling 2 Small虽已兑现开放权重承诺，但500GB以上聚合显存决定了API仍是现实入口。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "IBM发布Granite 4.1 LLMON实验预览，给提示词建立指令—数据边界",
-          "summary": "IBM开放3B与8B预览权重及工具包，用LLMON给指令、文档和工具结果加可寻址结构，旨在降低间接提示注入。作者称部分基准攻击成功率接近零；权重为Apache 2.0，但仍属实验版，适合先用文献RAG小样对照，且应由chat template生成标记。",
-          "source_name": "IBM Granite / Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "title": "Gemini 4 Hydrogen面向高频编程与Agent执行，价格低于Carbon",
+          "summary": "Google发布Gemini 4 Hydrogen，面向快速编程和高频Agent任务，提供四档思考强度及100万token上下文。API输入／输出价为每百万token 1.50／7.50美元，低于Carbon；官方称默认思考档在指定榜单略高于Argon，但仍需用实际任务核对质量与总成本。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
           "published_at": "2026-11-12"
         },
         {
-          "title": "Salesforce开放SOV-Transcribe-1，强化术语偏置与关键实体转写",
-          "summary": "这款非流式ASR为26B总参数、4B激活，支持领域词提示、格式指令及电话邮箱等实体。Salesforce称其在11月12日榜单快照中居开放权重非流式ASR首位；权重为Apache 2.0，但技术报告和最低显存尚未明确，不适合实时字幕。",
-          "source_name": "Salesforce Sovereign Intelligence / Hugging Face",
-          "source_url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+          "title": "Inkling 2 Small兑现承诺开放权重，但本地部署仍属集群级",
+          "summary": "Thinking Machines于11月12日开放Inkling 2 Small权重，并接入vLLM、SGLang、Unsloth及多家API平台。权重为Apache 2.0；594B总参数、17B激活的NVFP4版本仍需至少500GB聚合显存，因此网页、小游戏和3D任务更适合先用托管入口小样。",
+          "source_name": "Thinking Machines Lab",
+          "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
           "published_at": "2026-11-12"
         },
         {
-          "title": "ZONOS3-Mini开放端侧多语种声音克隆与可控TTS",
-          "summary": "Zyphra发布100M激活、800M总参数的稀疏TTS，支持43种语言、零样本声音克隆和词级情绪节奏控制，并提供WebGPU、MLX与GGUF等运行路径。权重Apache 2.0、代码MIT；作者报告Pixel 9浏览器首音频低于570毫秒，实际效果须在目标设备与获授权声音上验证。",
-          "source_name": "Zyphra / Hugging Face",
-          "source_url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
-          "published_at": "2026-11-11"
+          "title": "Perplexity Decider v1.3新增Locate，可直接返回原句位置与置信度",
+          "summary": "Decider v1.3及4B级Flash版继续处理分类、评分和路由，并新增Locate，从输入中提取原文片段、字符偏移与置信度。两款标注Apache 2.0；Flash约需8.5GiB权重加工作显存，适合小样验证材料文献分类和关键句抽取，厂商内部评测需独立复核。",
+          "source_name": "Perplexity",
+          "source_url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+          "published_at": "2026-11-12"
         },
         {
-          "title": "Google AI Edge Gallery加入离线ASR与TTS参考实现",
-          "summary": "Google把流式识别和朗读接入AI Edge Gallery，并公开ML Kit、MediaPipe与LiteRT范例，可与Gemini Nano或Gemma 4在手机端离线协作。仓库为Apache 2.0，Android要求12以上、iOS要求17以上；系统模型可用性与延迟仍取决于机型。",
-          "source_name": "Google Developers Blog",
-          "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
-          "published_at": "2026-11-10"
-        },
-        {
-          "title": "Runway兑现Praxis-1开放承诺，发布机器人视频—动作模型权重与代码",
-          "summary": "Praxis-1早在9月介绍，本次才开放27B MoE模型、推理及微调代码；它联合预测下一段视频和机器人动作。项目采用Apache 2.0，作者报告RoboLab-120成功率46.2%；官方基础仿真需至少80GB显存、检查点约54.4GB，暂不适合低成本本地工作站。",
-          "source_name": "Runway",
-          "source_url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+          "title": "BotPsy-0.8B把多步工具调用压到手机可运行规模",
+          "summary": "Tether旗下QVAC开放BotPsy-0.8B的BF16、8-bit与GGUF权重，用于离线工具选择、参数填写和失败恢复。权重为Apache 2.0，GGUF页面标注约2.86GB；作者称在六项Agent基准领先所测1.2B以下模型，但明确不应用于付款、健康或敏感自动决策。",
+          "source_name": "QVAC / Tether AI Research",
+          "source_url": "https://qvac.tether.io/blog/on-device-ai-agent-botpsy",
           "published_at": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "水触发固化的PSMMA可在水下塑形并粘接",
+          "summary": "东京科学大学解读一种硅氮杂环基聚合物：加水后先成为可塑黏团，再交联成疏水固体，24小时内约95%反应基团完成转化，并演示水下成型和玻璃瓶修复。论文实际于9月10日上线；材料目前偏脆、剪切强度约0.7—1.6MPa，仍是概念验证。",
+          "source_name": "Institute of Science Tokyo",
+          "source_url": "https://admissions.isct.ac.jp/en/news/1lku6tyqij0d",
+          "published_at": "2026-11-13"
         }
       ]
     }

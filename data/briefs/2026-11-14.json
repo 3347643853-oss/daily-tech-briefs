@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-14",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得验证的是Perplexity Decider Flash v1.3的文献分类与原句定位能力，以及BotPsy在手机端低风险工具调用中的可行性。Inkling 2 Small虽已兑现开放权重承诺，但500GB以上聚合显存决定了API仍是现实入口。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Gemini 4 Hydrogen面向高频编程与Agent执行，价格低于Carbon",
+          "summary": "Google发布Gemini 4 Hydrogen，面向快速编程和高频Agent任务，提供四档思考强度及100万token上下文。API输入／输出价为每百万token 1.50／7.50美元，低于Carbon；官方称默认思考档在指定榜单略高于Argon，但仍需用实际任务核对质量与总成本。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "Inkling 2 Small兑现承诺开放权重，但本地部署仍属集群级",
+          "summary": "Thinking Machines于11月12日开放Inkling 2 Small权重，并接入vLLM、SGLang、Unsloth及多家API平台。权重为Apache 2.0；594B总参数、17B激活的NVFP4版本仍需至少500GB聚合显存，因此网页、小游戏和3D任务更适合先用托管入口小样。",
+          "source_name": "Thinking Machines Lab",
+          "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "Perplexity Decider v1.3新增Locate，可直接返回原句位置与置信度",
+          "summary": "Decider v1.3及4B级Flash版继续处理分类、评分和路由，并新增Locate，从输入中提取原文片段、字符偏移与置信度。两款标注Apache 2.0；Flash约需8.5GiB权重加工作显存，适合小样验证材料文献分类和关键句抽取，厂商内部评测需独立复核。",
+          "source_name": "Perplexity",
+          "source_url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "BotPsy-0.8B把多步工具调用压到手机可运行规模",
+          "summary": "Tether旗下QVAC开放BotPsy-0.8B的BF16、8-bit与GGUF权重，用于离线工具选择、参数填写和失败恢复。权重为Apache 2.0，GGUF页面标注约2.86GB；作者称在六项Agent基准领先所测1.2B以下模型，但明确不应用于付款、健康或敏感自动决策。",
+          "source_name": "QVAC / Tether AI Research",
+          "source_url": "https://qvac.tether.io/blog/on-device-ai-agent-botpsy",
+          "published_at": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "category": "化工、催化与材料",
+      "items": [
+        {
+          "title": "水触发固化的PSMMA可在水下塑形并粘接",
+          "summary": "东京科学大学解读一种硅氮杂环基聚合物：加水后先成为可塑黏团，再交联成疏水固体，24小时内约95%反应基团完成转化，并演示水下成型和玻璃瓶修复。论文实际于9月10日上线；材料目前偏脆、剪切强度约0.7—1.6MPa，仍是概念验证。",
+          "source_name": "Institute of Science Tokyo",
+          "source_url": "https://admissions.isct.ac.jp/en/news/1lku6tyqij0d",
+          "published_at": "2026-11-13"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-15",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得关注的是 llama.cpp 1.0 对本地推理接口稳定性的承诺，以及 Duo 开放的全双工音视频交互研究栈。本周小样优先验证 Decider Flash 的文献分类与 LLMON 的提示注入隔离；两者都比直接部署超大生成模型更贴近当前科研工作流。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "llama.cpp 1.0 发布：本地推理库进入明确的版本兼容阶段",
+          "summary": "ggml 团队发布 llama.cpp 1.0，重点不是新模型，而是清理旧接口并开始用主版本号标记 API／ABI 破坏性变化，利于本地 AI 应用长期维护。项目仍为 MIT 代码并覆盖多类硬件；现有集成升级前必须先检查已移除接口。",
+          "source_name": "Hugging Face（ggml-org）",
+          "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "published_at": "2026-11-13"
+        },
+        {
+          "title": "Duo v1 开放权重与代码：探索可打断的全双工音视频交互",
+          "summary": "inclusionAI 发布 Duo v1 研究预览，开放离线推理代码、1.0／1.2 权重及 vLLM-Omni、SGLang-Omni 流式分支，采用 Apache 2.0。它可边感知边回应，但当前仅基础音视频对话，默认离线配置需两张 CUDA GPU，尚不适合低成本工作站。",
+          "source_name": "inclusionAI GitHub",
+          "source_url": "https://github.com/inclusionAI/Duo",
+          "published_at": "2026-11-13"
+        },
+        {
+          "title": "Google Antigravity /teamwork 将多智能体科研流程向外部用户开放",
+          "summary": "Google Research 公布 /teamwork 的科研与工程案例：并行探索后用证明器、测试套件或硬件计数器筛选结果，并以分离上下文降低长任务遗忘。功能已在 Antigravity 中提供，但部分流程仍将后续开放，且非开源；适合先用可自动验真的小任务评估。",
+          "source_name": "Google Research",
+          "source_url": "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "published_at": "2026-11-13"
+        },
+        {
+          "title": "本周开源回顾｜Granite 4.1 LLMON 预览",
+          "summary": "IBM 开放 3B／8B LLMON 预览权重与工具，用训练得到的控制标记区分指令、数据和工具输出，面向 RAG 与 Agent 的提示注入防护；Apache 2.0，但官方明确仍属实验预览。本周建议用 20 篇论文和 10 条恶意指令测试召回、拒绝与误伤。",
+          "source_name": "IBM Research Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/llmon",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "本周开源回顾｜Inkling 2 Small 开放权重",
+          "summary": "Thinking Machines Lab 为 Inkling 2 Small 发布 Apache 2.0 权重；模型总参数 594B、每次激活约 17B，主打代码与 Agent 工作。完整本地推理需约 500GB 聚合显存，个人设备不现实；宜先以网页或小游戏任务比较托管 API 的成本和成功率。",
+          "source_name": "Thinking Machines Lab",
+          "source_url": "https://thinkingmachines.ai/blog/inkling-2-small/",
+          "published_at": "2026-11-12"
+        },
+        {
+          "title": "本周开源回顾｜Perplexity Decider v1.3",
+          "summary": "Perplexity 发布 27B 与 4B Flash 决策模型，均为 Apache 2.0 开放权重，用固定选项和概率完成分类、路由与评分，不生成长文本。Flash 权重约 8.5GiB但仍需工作显存；本周最值得用 100 篇材料摘要和 20 个关键句定位任务做小样。",
+          "source_name": "Perplexity AI",
+          "source_url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-decider-v1-3",
+          "published_at": "2026-11-12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-17",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得验证的是Hugging Face接入OpenRouter后的统一开放模型调用，以及Hy4 flash的低价长上下文API；LongCat-Video-Avatar 1.6适合动画与MV小样，但本地运行门槛仍较高。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "Hugging Face接入OpenRouter，统一开放权重模型推理入口",
+          "summary": "Hugging Face将语言模型Inference Providers路由切换到OpenRouter：仍用HF令牌和原有代码，后台按价格、速度与可靠性在80多家提供商间选择并故障重试。它降低试用开放权重模型的接入成本，但模型许可证、供应商日志政策与计费仍分别适用，敏感科研数据应先核对条款。",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/inference-providers-openrouter",
+          "published_at": "2026-11-16"
+        },
+        {
+          "title": "Qwen4-Max生产版发布，加入原生视觉与百万上下文",
+          "summary": "阿里正式发布Qwen4-Max生产版，2.4T总参数、原生视觉与100万token上下文，支持图像和视频理解、工具调用及结构化输出。官方内部Work360称其较Qwen3.8-Max高思考档少用35% token、任务成本降约60%；目前仅托管API和产品可用，未开放权重。",
+          "source_name": "Qwen",
+          "source_url": "https://qwen.ai/blog?id=qwen4-max",
+          "published_at": "2026-11-16"
+        },
+        {
+          "title": "腾讯发布Hy4 flash：12B激活、百万上下文与低价API",
+          "summary": "腾讯发布Hy4 flash：224B总参数、12B激活，支持多模态输入和100万token上下文，API价约每百万输入/输出token 0.070/0.281美元。官方称KV缓存为Hy4的六分之一、解码超过150 token/s；当前仅腾讯托管入口，开放权重和OpenRouter仍是后续计划。",
+          "source_name": "Tencent Hunyuan",
+          "source_url": "https://hunyuan.tencent.com/ai-news/hy4-flash",
+          "published_at": "2026-11-16"
+        },
+        {
+          "title": "LongCat-Video-Avatar 1.6开放代码与权重，强化长视频口型",
+          "summary": "美团开放LongCat-Video-Avatar 1.6权重与代码，采用MIT许可，改善口型、表情和身体动作，并通过视频续写降低十分钟以上生成的误差累积。它适合动画与MV角色小样，但官方本地示例使用两张GPU、CUDA 12.4和FlashAttention，当前也没有托管推理入口。",
+          "source_name": "LongCat-Video",
+          "source_url": "https://github.com/meituan-longcat/LongCat-Video",
+          "published_at": "2026-11-15"
+        },
+        {
+          "title": "Agnes 2.5 Pro Theta开放187.8B多模态MoE权重",
+          "summary": "Agnes AI发布2.5 Pro Theta开放权重，采用Apache 2.0许可；187.8B多模态MoE可处理文本、图像和视频，配置上下文26.2万token。BF16权重约349.7GiB，模型卡建议至少四张H200级GPU并需启用远程自定义代码；作者基准未独立复核，不适合个人本地部署。",
+          "source_name": "Agnes AI",
+          "source_url": "https://huggingface.co/agnes-ai/Agnes-2.5-Pro-Theta",
+          "published_at": "2026-11-15"
+        }
+      ]
+    }
+  ]
+}

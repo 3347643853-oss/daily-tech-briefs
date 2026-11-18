@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-18",
+  "title": "每日科技与要闻简报",
+  "overview": "本期最值得直接验证的是GPT-6.2 Sol能否以原价格改善日常科研与编程协作，以及MAI Image 2.7的局部编辑和透明背景是否适合科研图示素材。NVIDIA量化检查点更偏部署研究，不适合普通工作站。",
+  "sections": [
+    {
+      "category": "AI、大模型和智能体",
+      "items": [
+        {
+          "title": "OpenAI发布GPT-6.2 Astra与Sol，强化科研、编程和专业交付",
+          "summary": "OpenAI发布GPT-6.2 Astra与Sol，面向高难专业项目和日常任务；官方称Astra在科研终端、文档、编程与电脑操作上提升且减少输出token。两者已进入ChatGPT Work、Codex和API；Astra每百万输入/输出token 8/40美元，Sol为2/10美元，均非开放权重。",
+          "source_name": "OpenAI",
+          "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "published_at": "2026-11-17"
+        },
+        {
+          "title": "微软推出MAI Code 2与Flash，面向日常仓库开发和快速修改",
+          "summary": "微软发布MAI Code 2与Flash，前者侧重多文件实现、调试、仓库推理和UI，Flash用于解释代码与定点修改。官方四项编程评测称Code 2达到GPT-6.1 Sol表现的98%、成本约40%，但部分为内部平台和促销价；目前主要通过GitHub Copilot使用，Foundry仅有限预览。",
+          "source_name": "Microsoft AI",
+          "source_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "published_at": "2026-11-17"
+        },
+        {
+          "title": "MAI Image 2.7与Flash上线，支持连续局部编辑和透明背景",
+          "summary": "微软发布MAI Image 2.7与Flash，强调连续局部编辑时保持场景一致，并支持透明背景；Canvas可从提示词或草图出发选择区域替换、移动和改风格，适合科研图示素材和网页设计。两款均为托管公共预览，约每千张35美元和10美元，实际分辨率、商用条款及区域可用性需在入口核对。",
+          "source_name": "Microsoft AI",
+          "source_url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+          "published_at": "2026-11-17"
+        },
+        {
+          "title": "Gemini Tasks免费扩展：可代办预约、账单和购物等多步任务",
+          "summary": "Google将Gemini Tasks免费推向美国、日本、韩国、加拿大、澳大利亚和印度，可连接邮件、日历、支付及60多个应用，代办预约、账单分析和购物等多步任务。任务在账户专属隔离虚拟机中运行，付款等关键动作需确认；中国大陆尚不在首批地区，涉及密码和科研数据时也应收紧授权。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "published_at": "2026-11-17"
+        },
+        {
+          "title": "NVIDIA开放Qwen3.8-Flash-Next实验性NVFP4-QAD检查点",
+          "summary": "NVIDIA发布Qwen3.8-Flash-Next-NVFP4-QAD权重，以NVFP4和MXFP8压缩共享专家及部分投影，文件约129.7GB，受NVIDIA及Qwen许可约束。作者评测未证明总体精度优于BF16；当前只验证GB300、vLLM 0.30和四路张量并行，不是普通工作站的即用版本。",
+          "source_name": "NVIDIA / Hugging Face",
+          "source_url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+          "published_at": "2026-11-17"
+        }
+      ]
+    }
+  ]
+}

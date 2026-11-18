@@ -1,45 +1,45 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "每日科技与要闻简报",
-  "overview": "本期最值得验证的是Hugging Face接入OpenRouter后的统一开放模型调用，以及Hy4 flash的低价长上下文API；LongCat-Video-Avatar 1.6适合动画与MV小样，但本地运行门槛仍较高。",
+  "overview": "本期最值得直接验证的是GPT-6.2 Sol能否以原价格改善日常科研与编程协作，以及MAI Image 2.7的局部编辑和透明背景是否适合科研图示素材。NVIDIA量化检查点更偏部署研究，不适合普通工作站。",
   "sections": [
     {
       "category": "AI、大模型和智能体",
       "items": [
         {
-          "title": "Hugging Face接入OpenRouter，统一开放权重模型推理入口",
-          "summary": "Hugging Face将语言模型Inference Providers路由切换到OpenRouter：仍用HF令牌和原有代码，后台按价格、速度与可靠性在80多家提供商间选择并故障重试。它降低试用开放权重模型的接入成本，但模型许可证、供应商日志政策与计费仍分别适用，敏感科研数据应先核对条款。",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/openrouter",
-          "published_at": "2026-11-16"
+          "title": "OpenAI发布GPT-6.2 Astra与Sol，强化科研、编程和专业交付",
+          "summary": "OpenAI发布GPT-6.2 Astra与Sol，面向高难专业项目和日常任务；官方称Astra在科研终端、文档、编程与电脑操作上提升且减少输出token。两者已进入ChatGPT Work、Codex和API；Astra每百万输入/输出token 8/40美元，Sol为2/10美元，均非开放权重。",
+          "source_name": "OpenAI",
+          "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "published_at": "2026-11-17"
         },
         {
-          "title": "Qwen4-Max生产版发布，加入原生视觉与百万上下文",
-          "summary": "阿里正式发布Qwen4-Max生产版，2.4T总参数、原生视觉与100万token上下文，支持图像和视频理解、工具调用及结构化输出。官方内部Work360称其较Qwen3.8-Max高思考档少用35% token、任务成本降约60%；目前仅托管API和产品可用，未开放权重。",
-          "source_name": "Qwen",
-          "source_url": "https://docs.qwencloud.com/changelog/models",
-          "published_at": "2026-11-16"
+          "title": "微软推出MAI Code 2与Flash，面向日常仓库开发和快速修改",
+          "summary": "微软发布MAI Code 2与Flash，前者侧重多文件实现、调试、仓库推理和UI，Flash用于解释代码与定点修改。官方四项编程评测称Code 2达到GPT-6.1 Sol表现的98%、成本约40%，但部分为内部平台和促销价；目前主要通过GitHub Copilot使用，Foundry仅有限预览。",
+          "source_name": "Microsoft AI",
+          "source_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "published_at": "2026-11-17"
         },
         {
-          "title": "腾讯发布Hy4 flash：12B激活、百万上下文与低价API",
-          "summary": "腾讯发布Hy4 flash：224B总参数、12B激活，支持多模态输入和100万token上下文，API价约每百万输入/输出token 0.070/0.281美元。官方称KV缓存为Hy4的六分之一、解码超过150 token/s；当前仅腾讯托管入口，开放权重和OpenRouter仍是后续计划。",
-          "source_name": "Tencent Hunyuan",
-          "source_url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
-          "published_at": "2026-11-16"
+          "title": "MAI Image 2.7与Flash上线，支持连续局部编辑和透明背景",
+          "summary": "微软发布MAI Image 2.7与Flash，强调连续局部编辑时保持场景一致，并支持透明背景；Canvas可从提示词或草图出发选择区域替换、移动和改风格，适合科研图示素材和网页设计。两款均为托管公共预览，约每千张35美元和10美元，实际分辨率、商用条款及区域可用性需在入口核对。",
+          "source_name": "Microsoft AI",
+          "source_url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+          "published_at": "2026-11-17"
         },
         {
-          "title": "LongCat-Video-Avatar 1.6开放代码与权重，强化长视频口型",
-          "summary": "美团开放LongCat-Video-Avatar 1.6权重与代码，采用MIT许可，改善口型、表情和身体动作，并通过视频续写降低十分钟以上生成的误差累积。它适合动画与MV角色小样，但官方本地示例使用两张GPU、CUDA 12.4和FlashAttention，当前也没有托管推理入口。",
-          "source_name": "LongCat-Video",
-          "source_url": "https://github.com/meituan-longcat/LongCat-Video",
-          "published_at": "2026-11-15"
+          "title": "Gemini Tasks免费扩展：可代办预约、账单和购物等多步任务",
+          "summary": "Google将Gemini Tasks免费推向美国、日本、韩国、加拿大、澳大利亚和印度，可连接邮件、日历、支付及60多个应用，代办预约、账单分析和购物等多步任务。任务在账户专属隔离虚拟机中运行，付款等关键动作需确认；中国大陆尚不在首批地区，涉及密码和科研数据时也应收紧授权。",
+          "source_name": "Google",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "published_at": "2026-11-17"
         },
         {
-          "title": "Agnes 2.5 Pro Theta开放187.8B多模态MoE权重",
-          "summary": "Agnes AI发布2.5 Pro Theta开放权重，采用Apache 2.0许可；187.8B多模态MoE可处理文本、图像和视频，配置上下文26.2万token。BF16权重约349.7GiB，模型卡建议至少四张H200级GPU并需启用远程自定义代码；作者基准未独立复核，不适合个人本地部署。",
-          "source_name": "Agnes AI",
-          "source_url": "https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Theta",
-          "published_at": "2026-11-15"
+          "title": "NVIDIA开放Qwen3.8-Flash-Next实验性NVFP4-QAD检查点",
+          "summary": "NVIDIA发布Qwen3.8-Flash-Next-NVFP4-QAD权重，以NVFP4和MXFP8压缩共享专家及部分投影，文件约129.7GB，受NVIDIA及Qwen许可约束。作者评测未证明总体精度优于BF16；当前只验证GB300、vLLM 0.30和四路张量并行，不是普通工作站的即用版本。",
+          "source_name": "NVIDIA / Hugging Face",
+          "source_url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+          "published_at": "2026-11-17"
         }
       ]
     }
